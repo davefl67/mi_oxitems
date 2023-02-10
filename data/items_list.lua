@@ -300,14 +300,15 @@ return {
     ['badge_fib'] = { -- idea: Player uses item to show badge prop
         label = 'FIB Badge',
         weight = 444,
+        consume = 0,
         description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
             prop = { model = 'prop_fib_badge', 
-            pos = vec3(0.06, 0.021, -0.04), 
-            rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
+            pos = vec3(0.09, 0.038, -0.03), 
+            rot = vec3(-90.0, -180.0, 280.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
-            usetime = 8000,
+            usetime = 5000,
         }
     },
 
