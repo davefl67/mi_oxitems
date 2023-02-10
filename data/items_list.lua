@@ -303,7 +303,7 @@ return {
         description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
+            prop = { model = 'prop_fib_badge', 
             pos = vec3(0.06, 0.021, -0.04), 
             rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
@@ -317,7 +317,7 @@ return {
         description = "For official use by BCSO Deputies only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
+            prop = { model = 'prop_fib_badge', 
             pos = vec3(0.06, 0.021, -0.04), 
             rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
@@ -331,7 +331,7 @@ return {
         description = "For official use by LSSD Deputies only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
+            prop = { model = 'prop_fib_badge', 
             pos = vec3(0.06, 0.021, -0.04), 
             rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
@@ -345,7 +345,7 @@ return {
         description = "For official use by LSPD Officers only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
+            prop = { model = 'prop_fib_badge', 
             pos = vec3(0.06, 0.021, -0.04), 
             rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
