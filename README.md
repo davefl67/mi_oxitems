@@ -18,26 +18,20 @@ Items I'm working on getting to work right:
 * Camera Item (idk what it would do but it could be neato)
 
 ##### Quality Images for items
+Decent quality and backgrounds removed so it looks like this:
 ![image_use](https://imgur.com/iz80nQf.png)
 
 ##### Consumables (with animations & images):
-* Sandwich
-* Hamburger
-* eCola
-* Junk Energy Drink
-* Rancho Beer
-* Dusche Beer
-* Stronzo Beer
-* Patriot Beer
+* Food - Sandwich, Hamburger
+* Drink - eCola, Junk
+* Beer - Rancho, Dusche, Stronzo, Patriot
+* Liqour - *in progress*
 
 ##### General Items:
-* Phone -*NPWD from [Project Error](https://github.com/project-error)*
 * Wallet - Server sided item for holding little card things
-* Bandage - Does what you think it does, I didn't edit it
 * Cigarette - Smoking animation, needs ptfx smoke
 * Vape - Smoking animation, needs ptfx smoke
 * Bodyarmor(1 ,2 ,3) - Varying levels of armor protection
-* Parachute - Does what you think it does, I didn't edit it
 * Police Badges - Use to show badges
 
 ##### Weapons:
