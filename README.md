@@ -1,39 +1,24 @@
-## Items Template for [Ox_Inventory](https://github.com/overextended/ox_inventory)
-I put this together for my own server that I'm working on, but I thought I would share the items & effects. I'll add to it as I edit and add more items. I will notate which files go where in the client / server code so that it should be easy to put together.
+## Items Template for [Ox_Inventory](https://github.com/overextended/ox_inventory) | **Credit to [OverExtended Team](https://github.com/overextended)**
 
-All I've done is make the items and make most of them work like they should. I didn't make any of the ox scripts nor am I part of the development team, all of the credit goes to [Linden](https://github.com/thelindat) and the [OverExtended Team](https://github.com/overextended). If you have any questions beyond "how do I add an item" or "what is a lua file", go check out their [documentation](https://overextended.github.io/docs/).
+I put this together for my own server that I'm working on, but I thought I would share the items & effects. I'll add to it as I edit and add more items and I will notate which files go where in the client / server code so that it should be easy to put together. I also added the latest weapons from the recent updates.
 
-I'm here for the community and I support the idea to *learn* how to do these things on your own. It's the best way to make sure you don't waste any time, money, or get scammed.I'm also going to update this as I work it for my own server, so hopefully this can give you some enrichment for your server(s). I'm also open to ideas, cause that sounds fun.
+##### Image Quality: *I use adobe illustrator to cut out & size the images, without losing too much of the quality*
+![Inventory_Items](https://imgur.com/paYwbNi.png)
 
-Download here
-# Items Template [Github](https://github.com/MIAgimir/Ox_Inventory-ItemsTemplate)
-
-## Planned & In Progress (aside from simple food / drink)
-Items I'm working on getting to work right:
-* Effects for smoking / vaping
-* Weapon Tint Items
-* Clothing bag to use for player changing outfits
-* Bulk item that gives smaller items (Beer case = 12 beers)
-* Police Badges that can be shown when used
-* Camera Item (idk what it would do but it could be neato)
-
-##### Quality Images for items
-Decent quality and backgrounds removed so it looks like this:
-![image_use](https://imgur.com/iz80nQf.png)
-
-##### Consumables (with animations & images):
-* Food - Sandwich, Hamburger
-* Drink - eCola, Junk
-* Beer - Rancho, Dusche, Stronzo, Patriot
+List of food items:
+* Food - *Sandwich, Hamburger*
+* Drink - *eCola, Junk*
+* Beer - *Rancho, Dusche, Stronzo, Patriot*
 * Liqour - *in progress*
 
-##### General Items:
-* Wallet - Server sided item for holding little card things
-* Cigarette - Smoking animation, needs ptfx smoke
-* Vape - Smoking animation, needs ptfx smoke
-* Bodyarmor(1 ,2 ,3) - Varying levels of armor protection
-* Police Badges - Use to show badges
+##### Prop Usage: *See the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) repository for the badge item props*
+![Badge_Usage](https://imgur.com/bZYyPLi.png)
 
-##### Weapons:
-* Pistol XM3 - *Los Santos Drug Wars Update*
-* Tactical Rifle - *Criminal Enterprises Update*
+List of usable items:
+* Police Bagdes - *display [badge prop](https://github.com/MIAgimir/FiveM-LeoBadgeProps)*
+* Wallet - *open secondary inventory*
+* Cigarette - *use prop & HP damage*
+* Vape - *use prop & HP damage*
+* Body Armor - *30%, 60%, & 100%*
+
+
