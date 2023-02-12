@@ -282,17 +282,7 @@ return {
         description = "If you don't wash this, you're gonna be stinky",
     },
 
-
-
-
-
-
-
-
-
-
     --[[ --------------------------------------------------------------------------------
-                                        <! TESTING ITEMS !>
                                         <! POLICE BADGES !>
     -------------------------------------------------------------------------------- ]]--
 
@@ -304,9 +294,9 @@ return {
         description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_fib_badge', 
-            pos = vec3(0.09, 0.038, -0.03), 
-            rot = vec3(-90.0, -180.0, 280.0), bone = 28422 },
+            prop = { model = 'prop_fibb_badge', -- need badge props repo
+            pos = vec3(0.13, 0.023, -0.04), 
+            rot = vec3(-90.0, -180.0, 300.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
             usetime = 5000,
         }
@@ -315,73 +305,45 @@ return {
     ['badge_bcso'] = { -- idea: Player uses item to show badge prop
         label = 'BCSO Badge',
         weight = 444,
-        description = "For official use by BCSO Deputies only",
+        consume = 0,
+        description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_fib_badge', 
-            pos = vec3(0.06, 0.021, -0.04), 
-            rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
+            prop = { model = 'prop_bcso_badge', -- need badge props repo
+            pos = vec3(0.13, 0.023, -0.04), 
+            rot = vec3(-90.0, -180.0, 300.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
-            usetime = 8000,
+            usetime = 5000,
         }
     },
 
     ['badge_lssd'] = { -- idea: Player uses item to show badge prop
         label = 'LSSD Badge',
         weight = 444,
-        description = "For official use by LSSD Deputies only",
+        consume = 0,
+        description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_fib_badge', 
-            pos = vec3(0.06, 0.021, -0.04), 
-            rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
+            prop = { model = 'prop_lssd_badge', -- need badge props repo
+            pos = vec3(0.13, 0.023, -0.04), 
+            rot = vec3(-90.0, -180.0, 300.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
-            usetime = 8000,
+            usetime = 5000,
         }
     },
 
     ['badge_lspd'] = { -- idea: Player uses item to show badge prop
         label = 'LSPD Badge',
         weight = 444,
-        description = "For official use by LSPD Officers only",
+        consume = 0,
+        description = "For official use by FIB Agents only",
         client = {
             anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_fib_badge', 
-            pos = vec3(0.06, 0.021, -0.04), 
-            rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
+            prop = { model = 'prop_lspd_badge', -- need badge props repo
+            pos = vec3(0.13, 0.023, -0.04), 
+            rot = vec3(-90.0, -180.0, 300.0), bone = 28422 },
             disable = { move = false, car = false, combat = false },
-            usetime = 8000,
-        }
-    },
-
-
-
-
-
-
-
-
-
-    --[[ --------------------------------------------------------------------------------
-                                        <! TESTING ITEMS !>
-                                        <! OUTFITTER BAG !>
-    -------------------------------------------------------------------------------- ]]--
-
-    -- All players
-    ['outfit_bag'] = { -- idea: Player uses item to open the outfit menu
-        label = 'Outfit Bag',
-        weight = 1250,
-        consume = 1,
-        stack = true,
-        close = true,
-        description = "When you gotta bring out the new drip",
-        client = {
-            anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
-            pos = vec3(0.06, 0.021, -0.04), 
-            rot = vec3(-90.0, -180.0, 78.0), bone = 28422 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 8000,
+            usetime = 5000,
         }
     },
 
