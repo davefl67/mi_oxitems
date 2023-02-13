@@ -8,4 +8,16 @@
 
   ['wallet'] = {
 		size = {5, 3000},
-	}
+	},
+
+  ['box_small'] = {
+		size = {5, 7500},
+	},
+
+  ['giftbox_red'] = {
+		size = {3, 5000},
+	},
+
+  ['giftbox_white'] = {
+		size = {3, 5000},
+	},
