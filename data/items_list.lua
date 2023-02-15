@@ -33,16 +33,59 @@ return {
     --[[ --------------------------------------------------------------------------------
                                         <! DRINKS !>
     -------------------------------------------------------------------------------- ]]--
+
+    ['water'] = { -- Carbonized syrup is good for the soul
+        label = 'Water Bottle',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "If you think you need more, you do",
+        client = {
+            status = { thirst = 40000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'vw_prop_casino_water_bottle_01a', pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
+            usetime = 7500,
+        },
+    },
+
     ['ecola'] = { -- Carbonized syrup is good for the soul
         label = 'eCola',
         weight = 350,
         stack = true,
         close = true,
-        description = "Carbonized syrup is good for the soul",
+        description = "Hey, there is soda in my cocaine",
         client = {
             status = { thirst = 20000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = 'prop_ecola_can', pos = vec3(0.025, 0.010, 0.05), rot = vec3(5.0, 5.0, -180.5) },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'ng_proc_sodacan_01b', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['sprunk'] = { -- Carbonized syrup is good for the soul
+        label = 'Sprunk',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "It tastes like water punched you in the throat",
+        client = {
+            status = { thirst = 20000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_ecola_can', pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['orangotang'] = { -- Carbonized syrup is good for the soul
+        label = 'Orang-o-tang',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "I didn't even know people wanted this",
+        client = {
+            status = { thirst = 20000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_orang_can_01', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
             usetime = 7500,
         },
     },
@@ -55,7 +98,7 @@ return {
         description = "Drinking too much of this wont kill you. I think.",
         client = {
             status = { thirst = 20000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'sf_prop_sf_can_01a', pos = vec3(0.025, 0.010, 0.05), rot = vec3(5.0, 5.0, -180.5) },
             usetime = 7500,
         },
