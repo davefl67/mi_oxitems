@@ -9,7 +9,7 @@ return {
         close = true,
         description = "A simple sandwich for a simple day",
         client = {
-            status = { thirst = 500000 },
+            status = { hunger = 500000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_sandwich_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 7500,
@@ -23,7 +23,7 @@ return {
         close = true,
         description = "A test hamburger that you can eat",
         client = {
-            status = { thirst = 500000 },
+            status = { hunger = 500000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_burger_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 7500,
@@ -37,7 +37,7 @@ return {
         close = true,
         description = "Not made with real dogs or meat",
         client = {
-            status = { thirst = 500000 },
+            status = { hunger = 500000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_hotdog_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 7500,
@@ -51,7 +51,7 @@ return {
         close = true,
         description = "Rib flavored chips, made with real wood chips",
         client = {
-            status = { thirst = 300000 },
+            status = { hunger = 300000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_food_chips', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 5000,
@@ -65,7 +65,7 @@ return {
         close = true,
         description = "Rib flavored chips, made with real wood chips",
         client = {
-            status = { thirst = 300000 },
+            status = { hunger = 300000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_food_chips01b', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 5000,
@@ -79,7 +79,7 @@ return {
         close = true,
         description = "Cheese flavored chips, made with real rats",
         client = {
-            status = { thirst = 300000 },
+            status = { hunger = 300000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_food_chips01a', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 5000,
@@ -93,7 +93,7 @@ return {
         close = true,
         description = "Yes, from the trees comes deez apples",
         client = {
-            status = { thirst = 200000 },
+            status = { hunger = 200000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'sf_prop_sf_apple_01a', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 3000,
