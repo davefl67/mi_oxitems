@@ -9,7 +9,7 @@ I put this together for my own server that I'm working on, but I thought I would
 
 List of food items:
 * Food - *Sandwich, Hamburger*
-* Drink - *eCola, Junk*
+* Drink - *Water, eCola, Junk, Sprunk, OrangoTang*
 * Beer - *Rancho, Dusche, Stronzo, Patriot*
 * Liqour - *in progress*
 
