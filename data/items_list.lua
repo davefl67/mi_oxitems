@@ -9,7 +9,7 @@ return {
         close = true,
         description = "A simple sandwich for a simple day",
         client = {
-            status = { thirst = 60000 },
+            status = { thirst = 500000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_sandwich_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 7500,
@@ -23,10 +23,80 @@ return {
         close = true,
         description = "A test hamburger that you can eat",
         client = {
-            status = { thirst = 60000 },
+            status = { thirst = 500000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_burger_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
             usetime = 7500,
+        },
+    },
+
+    ['hotdog'] = { -- A test hamburger that you can eat
+        label = 'Hotdog',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Not made with real dogs or meat",
+        client = {
+            status = { thirst = 500000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_cs_hotdog_01', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['fr_fries'] = { -- A test hamburger that you can eat
+        label = 'French Fries',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Rib flavored chips, made with real wood chips",
+        client = {
+            status = { thirst = 300000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_food_chips', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 5000,
+        },
+    },
+
+    ['phatc_rib'] = { -- A test hamburger that you can eat
+        label = 'Phat Chips: Ribs',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Rib flavored chips, made with real wood chips",
+        client = {
+            status = { thirst = 300000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'ng_proc_food_chips01b', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 5000,
+        },
+    },
+
+    ['phatc_bch'] = { -- A test hamburger that you can eat
+        label = 'Phat Chips: Big Cheese',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Cheese flavored chips, made with real rats",
+        client = {
+            status = { thirst = 300000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'ng_proc_food_chips01a', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 5000,
+        },
+    },
+
+    ['apple'] = { -- A test hamburger that you can eat
+        label = 'Apple',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Yes, from the trees comes deez apples",
+        client = {
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'sf_prop_sf_apple_01a', pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 3000,
         },
     },
 
@@ -41,7 +111,7 @@ return {
         close = true,
         description = "If you think you need more, you do",
         client = {
-            status = { thirst = 40000 },
+            status = { thirst = 400000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'vw_prop_casino_water_bottle_01a', pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
             usetime = 7500,
@@ -55,10 +125,10 @@ return {
         close = true,
         description = "Hey, there is soda in my cocaine",
         client = {
-            status = { thirst = 20000 },
-            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
-            prop = { model = 'ng_proc_sodacan_01b', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
-            usetime = 7500,
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_ecola_can', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+            usetime = 5000,
         },
     },
 
@@ -69,10 +139,10 @@ return {
         close = true,
         description = "It tastes like water punched you in the throat",
         client = {
-            status = { thirst = 20000 },
-            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
-            prop = { model = 'prop_ecola_can', pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
-            usetime = 7500,
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'ng_proc_sodacan_01b', pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+            usetime = 5000,
         },
     },
 
@@ -83,10 +153,10 @@ return {
         close = true,
         description = "I didn't even know people wanted this",
         client = {
-            status = { thirst = 20000 },
-            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_orang_can_01', pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
-            usetime = 7500,
+            usetime = 5000,
         },
     },
 
@@ -97,10 +167,10 @@ return {
         close = true,
         description = "Drinking too much of this wont kill you. I think.",
         client = {
-            status = { thirst = 20000 },
-            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            status = { thirst = 200000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'sf_prop_sf_can_01a', pos = vec3(0.025, 0.010, 0.05), rot = vec3(5.0, 5.0, -180.5) },
-            usetime = 7500,
+            usetime = 5000,
         },
     },
 
