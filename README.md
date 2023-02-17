@@ -22,6 +22,8 @@ List of usable items:
 * Cigarette - *use prop & HP damage*
 * Vape - *use prop & HP damage*
 * Body Armor - *30%, 60%, & 100%*
-* Wallet - *open tertiary inventory*
-* Small Box - *open tertiary inventory*
-* Gift Box (*red / white*) - *open tertiary inventory*
+
+List of storage items:
+* Wallet - *holding money / IDs*
+* Small Box - *storing things*
+* Gift Box (*red / white*) - *giving gift to player*
