@@ -7,14 +7,16 @@ I put this together for my own server that I'm working on, but I thought I would
 ##### Image Quality: *I use adobe illustrator to cut out & size the images, without losing too much of the quality*
 ![Inventory_Items](https://imgur.com/paYwbNi.png)
 
+##### Prop Usage: *See the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) repository for the badge item props*
+![Badge_Usage](https://imgur.com/bZYyPLi.png)
+
+## Current list of items
+
 List of food items:
 * Food - *Sandwich, Hamburger, Hotdog, Chips (ribs & cheese), Apple*
 * Drink - *Water, eCola, Junk, Sprunk, OrangoTang*
 * Beer - *Rancho, Dusche, Stronzo, Patriot*
 * Liqour - *in progress*
-
-##### Prop Usage: *See the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) repository for the badge item props*
-![Badge_Usage](https://imgur.com/bZYyPLi.png)
 
 List of usable items:
 * Dingus - *just look at em*
