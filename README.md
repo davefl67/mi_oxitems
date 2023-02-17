@@ -8,7 +8,7 @@ I put this together for my own server that I'm working on, but I thought I would
 ![Inventory_Items](https://imgur.com/paYwbNi.png)
 
 List of food items:
-* Food - *Sandwich, Hamburger*
+* Food - *Sandwich, Hamburger, Hotdog, Chips (ribs & cheese), Apple*
 * Drink - *Water, eCola, Junk, Sprunk, OrangoTang*
 * Beer - *Rancho, Dusche, Stronzo, Patriot*
 * Liqour - *in progress*
@@ -19,9 +19,9 @@ List of food items:
 List of usable items:
 * Dingus - *just look at em*
 * Police Bagdes - *display [badge prop](https://github.com/MIAgimir/FiveM-LeoBadgeProps)*
-* Wallet - *open secondary inventory*
 * Cigarette - *use prop & HP damage*
 * Vape - *use prop & HP damage*
 * Body Armor - *30%, 60%, & 100%*
-
-
+* Wallet - *open tertiary inventory*
+* Small Box - *open tertiary inventory*
+* Gift Box (*red / white*) - *open tertiary inventory*
