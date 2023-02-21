@@ -59,3 +59,51 @@ Item('bodyarmor_3', function(data, slot) -- Adds 100% of body armor
 		end)
 	end
 end)
+
+Item('weed_sativa', function(data, slot) -- causes drug effect
+	ox_inventory:useItem(data, function(data)
+		if data then
+			SetTimecycleModifier("spectator6")
+			AnimpostfxPlay("DrugsMichaelAliensFight", 10000001, true)
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.6)
+
+			Citizen.Wait(90000) -- 60 seconds
+
+			AnimpostfxStopAll()
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.0)
+			SetTimecycleModifierStrength(0.0)
+		end
+	end)
+end)
+
+Item('weed_indica', function(data, slot) -- causes drug effect
+	ox_inventory:useItem(data, function(data)
+		if data then
+			SetTimecycleModifier("spectator2")
+			AnimpostfxPlay("HeistCelebPass", 10000001, true)
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.6)
+
+			Citizen.Wait(90000) -- 60 seconds
+
+			AnimpostfxStopAll()
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.0)
+			SetTimecycleModifierStrength(0.0)
+		end
+	end)
+end)
+
+Item('weed_hybrid', function(data, slot) -- causes drug effect 
+	ox_inventory:useItem(data, function(data)
+		if data then
+			SetTimecycleModifier("spectator2")
+			AnimpostfxPlay("DrugsTrevorClownsFight", 10000001, true)
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.6)
+
+			Citizen.Wait(90000) -- 60 seconds
+
+			AnimpostfxStopAll()
+    		ShakeGameplayCam("DRUNK_SHAKE", 0.0)
+			SetTimecycleModifierStrength(0.0)
+		end
+	end)
+end)
