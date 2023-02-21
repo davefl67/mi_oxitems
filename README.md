@@ -7,10 +7,11 @@ I put this together for my own server that I'm working on, but I thought I would
 *badges used require the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) resource*
 
 ## Configured items for use
-- 7 animated foods
+- 11 animated foods
 - 9 animated drinks
 - 4 animated beers
 - 10 animated items
+- 3 animated drugs
 - 4 animated badges
 - 4 storage items
 
