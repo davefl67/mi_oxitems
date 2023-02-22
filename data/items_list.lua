@@ -64,6 +64,91 @@ return {
         },
     },
 
+    ['pizza_pep'] = { -- A simple sandwich for a simple day
+        label = 'Peperoni Pizza',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Who put cheese on my pepperoni",
+        client = {
+            status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'knjgh_pizzaslice1', 
+            pos = vec3(0.05, -0.02, -0.02), 
+            rot = vec3(73.7, -66.7, 68.4),
+            bone = 60309 },
+            usetime = 7500,
+        },
+    },
+
+    ['pizza_chs'] = { -- A simple sandwich for a simple day
+        label = 'Cheese Pizza',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Is it enough cheese? No",
+        client = {
+            status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'knjgh_pizzaslice2', 
+            pos = vec3(0.05, -0.02, -0.02), 
+            rot = vec3(73.7, -66.7, 68.4),
+            bone = 60309 },
+            usetime = 7500,
+        },
+    },
+
+    ['pizza_msh'] = { -- A simple sandwich for a simple day
+        label = 'Mushroom Pizza',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Fungi on my pizza? Who thought of this?",
+        client = {
+            status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'knjgh_pizzaslice3', 
+            pos = vec3(0.05, -0.02, -0.02), 
+            rot = vec3(73.7, -66.7, 68.4),
+            bone = 60309 },
+            usetime = 7500,
+        },
+    },
+
+    ['pizza_mgt'] = { -- A simple sandwich for a simple day
+        label = 'Margherita Pizza',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "I know, I thought it was alcohol pizza too",
+        client = {
+            status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'knjgh_pizzaslice4', 
+            pos = vec3(0.05, -0.02, -0.02), 
+            rot = vec3(73.7, -66.7, 68.4),
+            bone = 60309 },
+            usetime = 7500,
+        },
+    },
+
+    ['pizza_dmt'] = { -- A simple sandwich for a simple day
+        label = 'Double Meat Pizza',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "When one meat isn't enough and 3 is weird",
+        client = {
+            status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'knjgh_pizzaslice4', 
+            pos = vec3(0.05, -0.02, -0.02), 
+            rot = vec3(73.7, -66.7, 68.4),
+            bone = 60309 },
+            usetime = 7500,
+        },
+    },
+
     ['hotdog'] = { -- A test hamburger that you can eat
         label = 'Hotdog',
         weight = 350,
