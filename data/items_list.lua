@@ -239,7 +239,7 @@ return {
         },
     },
 
-    ['banana'] = { -- Apple good
+    ['banana'] = { -- banana good
         label = 'Banana',
         weight = 350,
         stack = true,
@@ -254,7 +254,208 @@ return {
         },
     },
 
+    ['icecream_chr'] = { -- brain cold go brrrrr
+        label = 'Cherry Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_cherry', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
 
+    ['icecream_chc'] = { -- brain cold go brrrrr
+        label = 'Chocolate Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_chocolate', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_lmn'] = { -- brain cold go brrrrr
+        label = 'Lemon Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_lemon', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_pso'] = { -- brain cold go brrrrr
+        label = 'Pistachio Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_pistachio', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_rpy'] = { -- brain cold go brrrrr
+        label = 'Raspberry Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_raspberry', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_ckd'] = { -- brain cold go brrrrr
+        label = 'Cookie Dough Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_stracciatella', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_sby'] = { -- brain cold go brrrrr
+        label = 'Strawberry Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_strawberry', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['icecream_vna'] = { -- brain cold go brrrrr
+        label = 'Vanilla Ice Cream',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Why yes, your brain is freezing",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['donut_chc'] = { -- Fuck those baked shits are good af
+        label = 'Chocolate Donut',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Mmmmm, refrence",
+        client = {
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_foodpack_donut002', 
+            bone = 18905,
+            pos = vec3(0.13, 0.050, 0.020), 
+            rot = vec3(-50.0, 100.0, 270.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['donut_sby'] = { -- Fuck those baked shits are good af
+        label = 'Strawberry Donut',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Mmmmm, refrence",
+        client = {
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_foodpack_donut001', 
+            bone = 18905,
+            pos = vec3(0.13, 0.050, 0.020), 
+            rot = vec3(-50.0, 100.0, 270.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['smore'] = { -- Fuck those baked shits are good af
+        label = 'Smore',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Mmmmm, refrence",
+        client = {
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_food_dessert_a', 
+            bone = 18905,
+            pos = vec3(0.15, 0.03, 0.03), 
+            rot = vec3(-42.0, -36.0, 0.0) },
+            usetime = 7500,
+        },
+    },
+    
+    ['noodles'] = { -- Fuck those baked shits are good af
+        label = 'Thai Noodles',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "นี่คือบะหมี่",
+        client = {
+            status = { hunger = 160000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_ret_fh_noodle', 
+            pos = vec3(-0.03, 0.01, 0.05), 
+            rot = vec3(0.0, 0.0, -40.0) },
+            usetime = 7500,
+        },
+    },
 
 
 
@@ -278,6 +479,23 @@ return {
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'vw_prop_casino_water_bottle_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['milk'] = { -- milky milky milky
+        label = 'Milk Carton',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "You need strong bones for crimes",
+        client = {
+            status = { thirst = 300000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_tt_milk', 
+            bone = 18905,
+            pos = vec3(0.10, 0.008, 0.070), 
+            rot = vec3(240.0, -60.0, 0.0) },
             usetime = 7500,
         },
     },
@@ -553,10 +771,23 @@ return {
         description = "These probably aren't good for you, but fuck it",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'prop_cs_ciggy_01', 
+            prop = { model = 'bzzz_cigarpack_cig002', 
             pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
             disable = { move = false, car = false, combat = true },
-            usetime = 8000,
+            usetime = 16000,
+        }
+    },
+
+    ['cigar'] = { -- social item that causes slight damage to health
+        label = 'Cigar',
+        weight = 115,
+        description = "These REALLY aren't good for you, but fuck it",
+        client = {
+            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
+            prop = { model = 'bzzz_cigarpack_cig001', 
+            pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 180.0, 0.0), bone = 28422 },
+            disable = { move = false, car = false, combat = true },
+            usetime = 15000,
         }
     },
 
@@ -658,10 +889,10 @@ return {
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'prop_cigar_03', 
+            prop = { model = 'bzzz_cigarpack_cig003', 
             pos = vec3(-0.01, 0.0, 0.0), rot = vec3(0.0, 180.0, 0.0), bone = 28422 },
             disable = { move = false, car = false, combat = true },
-            usetime = 8000,
+            usetime = 16000,
         }
     },
 
@@ -672,10 +903,10 @@ return {
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'prop_cigar_03', 
+            prop = { model = 'bzzz_cigarpack_cig003', 
             pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
             disable = { move = false, car = false, combat = true },
-            usetime = 8000,
+            usetime = 16000,
         }
     },
 
@@ -686,10 +917,10 @@ return {
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'prop_cigar_03', 
+            prop = { model = 'bzzz_cigarpack_cig003', 
             pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
             disable = { move = false, car = false, combat = true },
-            usetime = 8000,
+            usetime = 16000,
         }
     },
 
