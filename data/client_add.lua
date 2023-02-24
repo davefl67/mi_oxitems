@@ -5,13 +5,24 @@
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
 
+Item('cigar', function(data, slot) -- Will lightly damage heath on use
+	local maxHealth = GetEntityMaxHealth(cache.ped)
+	local health = GetEntityHealth(cache.ped)
+	ox_inventory:useItem(data, function(data)
+		if data then
+			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health - maxHealth / 32)))
+			lib.notify({ description = 'You take the hit like a champ' })
+		end
+	end)
+end)
+
 Item('cigarette', function(data, slot) -- Will lightly damage heath on use
 	local maxHealth = GetEntityMaxHealth(cache.ped)
 	local health = GetEntityHealth(cache.ped)
 	ox_inventory:useItem(data, function(data)
 		if data then
-			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health - maxHealth / 128)))
-			lib.notify({ description = 'You feel better already' })
+			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health - maxHealth / 64)))
+			lib.notify({ description = 'You take the hit like a champ' })
 		end
 	end)
 end)
@@ -22,7 +33,7 @@ Item('vape', function(data, slot) -- Will lightly damage heath on use
 	ox_inventory:useItem(data, function(data)
 		if data then
 			SetEntityHealth(cache.ped, math.min(maxHealth, math.floor(health - maxHealth / 128)))
-			lib.notify({ description = 'You feel better already' })
+			lib.notify({ description = 'You take the hit like a champ' })
 		end
 	end)
 end)
