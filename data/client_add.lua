@@ -118,3 +118,43 @@ Item('weed_hybrid', function(data, slot) -- causes drug effect
 		end
 	end)
 end)
+
+Item('badge_fib', function(data, slot) -- Adds 100% of body armor
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_lspd', function(data, slot) -- Adds 100% of body armor
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_bcso', function(data, slot) -- Adds 100% of body armor
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_lssd', function(data, slot) -- Adds 100% of body armor
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
