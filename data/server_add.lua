@@ -5,6 +5,8 @@
                     make sure you have the item in your items file
                     (the one that came with this resource)
 -------------------------------------------------------------------------------- ]]--
+
+-- if not up to date with current ox_inventory version, use the below containers
 addToList {
 
   ------------------------
@@ -25,3 +27,26 @@ addToList {
 	},
   ------------------------
 }
+
+-- if up to date with current ox_inventory version, use the below containers in the containers.lua file
+
+setContainerProperties('wallet', {
+	slots = 5,
+	maxWeight = 3000,
+	whitelist = { 'idcard' }
+})
+
+setContainerProperties('box_small', {
+	slots = 5,
+	maxWeight = 7500,
+})
+
+setContainerProperties('giftbox_red', {
+	slots = 5,
+	maxWeight = 3000,
+})
+
+setContainerProperties('giftbox_white', {
+	slots = 5,
+	maxWeight = 3000,
+})
