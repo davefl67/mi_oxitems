@@ -7,7 +7,8 @@ I put this together for my own server that I'm working on, but I thought I would
 ![Tim](https://user-images.githubusercontent.com/116332087/219994733-ad6870e3-5808-4e5b-baad-b8a3553c7686.png)
 *badges used require the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) resource*
 
-## Configured items for use
+## Configured items for use:
+- 1 super secret item that isn't ready yet
 - 16 animated foods
 - 9 animated drinks
 - 4 animated beers
@@ -15,6 +16,11 @@ I put this together for my own server that I'm working on, but I thought I would
 - 3 animated drugs
 - 4 animated badges
 - 4 storage items
+
+## Configured server items for use:
+- 4 beer cases (gives player chosen beer)
+- 5 pizza boxes (gives player chosen pizza)
+- 5 ammo cases (gives player chosen ammo)
 
 ## Instructions
 - copy the contents of *items_list.lua* and insert it into the *data/items.lua* file
