@@ -158,3 +158,10 @@ Item('badge_lssd', function(data, slot) -- Adds 100% of body armor
         end
 	end)
 end)
+
+Item('phone_burner', function(data, slot) -- opens burner phone menu 
+	ox_inventory:useItem(data, function(data)
+		-- part of dark web script: work in progress
+		--exports['MI_Darkweb']:midarkweb_client_openwebmenu()
+	end)
+end)

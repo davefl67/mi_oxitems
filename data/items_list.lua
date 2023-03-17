@@ -1,7 +1,39 @@
----@diagnostic disable: undefined-global
 return {
-
-    --[[ --------------------------------------------------------------------------------
+	--[[
+	Test burger reference for items
+	['testburger'] = {
+		label = 'Test Burger',
+		weight = 220,
+		degrade = 60,
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'ox_inventory_examples.testburger'
+		},
+		server = {
+			export = 'ox_inventory_examples.testburger',
+			test = 'what an amazingly delicious burger, amirite?'
+		},
+		buttons = {
+			{
+				label = 'Lick it',
+				action = function(slot)
+					print('You licked the burger')
+				end
+			},
+			{
+				label = 'Squeeze it',
+				action = function(slot)
+					print('You squeezed the burger :(')
+				end
+			}
+		},
+		consume = 0.3
+	},
+	]]
+	--[[ --------------------------------------------------------------------------------
                                         <! FOOD !>
     -------------------------------------------------------------------------------- ]]--
     ['sandwich'] = { -- A simple sandwich for a simple day
@@ -702,6 +734,235 @@ return {
 
 
     --[[ --------------------------------------------------------------------------------
+                                        <! GIVING ITEMS !>
+    -------------------------------------------------------------------------------- ]]--
+
+    ['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Rancho Beer',
+        weight = 3500,
+        --consume = 0,
+        description = "Oh boy I love beer",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'v_ind_cfbox2', -- need badge props repo
+            pos = vec3(-0.05, 0.8, -0.25), 
+            rot = vec3(0.00, 0.00, 0.00), 
+            bone = 56604 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_dusche_beer'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Dusche Beer',
+        weight = 3500,
+        --consume = 0,
+        description = "Oh boy I love beer",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'v_ind_cfbox2', -- need badge props repo
+            pos = vec3(-0.05, 0.8, -0.25), 
+            rot = vec3(0.00, 0.00, 0.00), 
+            bone = 56604 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_stronzo_beer'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Stronzo Beer',
+        weight = 3500,
+        --consume = 0,
+        description = "Oh boy I love beer",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'v_ind_cfbox2', -- need badge props repo
+            pos = vec3(-0.05, 0.8, -0.25), 
+            rot = vec3(0.00, 0.00, 0.00), 
+            bone = 56604 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_patriot_beer'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Patriot Beer',
+        weight = 3500,
+        --consume = 0,
+        description = "Oh boy I love beer",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'v_ind_cfbox2', -- need badge props repo
+            pos = vec3(-0.05, 0.8, -0.25), 
+            rot = vec3(0.00, 0.00, 0.00), 
+            bone = 56604 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    
+    ['box_pizza_chs'] = { -- idea: Player uses item to show badge prop
+        label = 'Box of Cheese Pizza',
+        weight = 3500,
+        --consume = 0,
+        description = "A box of cheesy goodness, my guy",
+        client = {
+            anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+            prop = { model = 'bzzz_pizzahut_box_a', -- need badge props repo
+            pos = vec3(0.010, -0.100, -0.159), 
+            rot = vec3(20.000, 0.000, 0.000), 
+            bone = 28422 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_pizza_pep'] = { -- idea: Player uses item to show badge prop
+        label = 'Box of Pepperoni Pizza',
+        weight = 3500,
+        --consume = 0,
+        description = "A box of cheesy goodness, my guy",
+        client = {
+            anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+            prop = { model = 'bzzz_pizzahut_box_a', -- need badge props repo
+            pos = vec3(0.010, -0.100, -0.159), 
+            rot = vec3(20.000, 0.000, 0.000), 
+            bone = 28422 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_pizza_msh'] = { -- idea: Player uses item to show badge prop
+        label = 'Box of Mushroom Pizza',
+        weight = 3500,
+        --consume = 0,
+        description = "A box of cheesy goodness, my guy",
+        client = {
+            anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+            prop = { model = 'bzzz_pizzahut_box_a', -- need badge props repo
+            pos = vec3(0.010, -0.100, -0.159), 
+            rot = vec3(20.000, 0.000, 0.000), 
+            bone = 28422 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_pizza_mgt'] = { -- idea: Player uses item to show badge prop
+        label = 'Box of Margherita Pizza',
+        weight = 3500,
+        --consume = 0,
+        description = "A box of cheesy goodness, my guy",
+        client = {
+            anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+            prop = { model = 'bzzz_pizzahut_box_a', -- need badge props repo
+            pos = vec3(0.010, -0.100, -0.159), 
+            rot = vec3(20.000, 0.000, 0.000), 
+            bone = 28422 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_pizza_dmt'] = { -- idea: Player uses item to show badge prop
+        label = 'Box of Double Meat Pizza',
+        weight = 3500,
+        --consume = 0,
+        description = "A box of cheesy goodness, my guy",
+        client = {
+            anim = { dict = 'anim@heists@box_carry@', clip = 'idle', flag = 49 },
+            prop = { model = 'bzzz_pizzahut_box_a', -- need badge props repo
+            pos = vec3(0.010, -0.100, -0.159), 
+            rot = vec3(20.000, 0.000, 0.000), 
+            bone = 28422 },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_rifle1'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 5.56x45 (x120)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_rifle2'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 7.62x39 (x120)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_shotgun'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 12 Gauge (x60)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+    ['box_ammo_sniper'] = { -- idea: Player uses item to show badge prop
+        label = 'Ammo Case: 7.62x51 (x30)',
+        weight = 5,
+        --consume = 0,
+        description = "A case of stuff to make problems go away",
+        client = {
+            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
+            clip = 'machinic_loop_mechandplayer', flag = 3 },
+            prop = { model = 'prop_box_ammo02a', -- need badge props repo
+            pos = vec3(0.0, 0.7, -0.40), 
+            rot = vec3(0.00, 0.00, 90.00), 
+            bone = 56604  },
+            disable = { move = false, car = false, combat = false },
+            usetime = 5000,
+        }
+    },
+
+
+
+
+
+
+
+
+
+    --[[ --------------------------------------------------------------------------------
                                         <! USABLE ITEMS !>
     -------------------------------------------------------------------------------- ]]--
 
@@ -737,6 +998,14 @@ return {
                 end
             end
         }
+    },
+
+    ['phone_burner'] = { -- If you aren't using NPWD, remove the client section of this item
+        label = 'Burner Phone',
+        weight = 190,
+        stack = false,
+        consume = 0.17
+        
     },
 
     ['wallet'] = { -- Use to hold licenses
@@ -993,5 +1262,4 @@ return {
             usetime = 5000,
         }
     },
-
 }
