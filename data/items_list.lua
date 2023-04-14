@@ -96,6 +96,40 @@ return {
         },
     },
 
+    ['hotdog'] = { -- A test hamburger that you can eat
+        label = 'Hotdog',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Not made with real dogs or meat",
+        client = {
+            status = { hunger = 230000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_cs_hotdog_01', 
+            pos = vec3(0.06, -0.01, -0.03), rot = vec3(60.0, -90.0, 0.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['fr_fries'] = { -- A test hamburger that you can eat
+        label = 'French Fries',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Rib flavored chips, made with real wood chips",
+        client = {
+            status = { hunger = 120000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_food_chips', 
+            pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
+            usetime = 5000,
+        },
+    },
+
+
+    -- PIZZAS
+
+
     ['pizza_pep'] = { -- A simple sandwich for a simple day
         label = 'Peperoni Pizza',
         weight = 350,
@@ -181,35 +215,9 @@ return {
         },
     },
 
-    ['hotdog'] = { -- A test hamburger that you can eat
-        label = 'Hotdog',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "Not made with real dogs or meat",
-        client = {
-            status = { hunger = 230000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'prop_cs_hotdog_01', 
-            pos = vec3(0.06, -0.01, -0.03), rot = vec3(60.0, -90.0, 0.0) },
-            usetime = 7500,
-        },
-    },
 
-    ['fr_fries'] = { -- A test hamburger that you can eat
-        label = 'French Fries',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "Rib flavored chips, made with real wood chips",
-        client = {
-            status = { hunger = 120000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = 'prop_food_chips', 
-            pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
-            usetime = 5000,
-        },
-    },
+    -- SNACKS
+
 
     ['phatc_rib'] = { -- A skeletons favorite snack
         label = 'Phat Chips: Ribs',
@@ -285,6 +293,24 @@ return {
             usetime = 3000,
         },
     },
+    
+    ['noodles'] = { -- Fuck those baked shits are good af
+        label = 'Thai Noodles',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "นี่คือบะหมี่",
+        client = {
+            status = { hunger = 160000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_ret_fh_noodle', 
+            pos = vec3(-0.03, 0.01, 0.05), 
+            rot = vec3(0.0, 0.0, -40.0) },
+            usetime = 7500,
+        },
+    },
+
+    -- DESSERTS & SWEETS
 
     ['icecream_chr'] = { -- brain cold go brrrrr
         label = 'Cherry Ice Cream',
@@ -472,22 +498,6 @@ return {
             usetime = 7500,
         },
     },
-    
-    ['noodles'] = { -- Fuck those baked shits are good af
-        label = 'Thai Noodles',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "นี่คือบะหมี่",
-        client = {
-            status = { hunger = 160000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = 'v_ret_fh_noodle', 
-            pos = vec3(-0.03, 0.01, 0.05), 
-            rot = vec3(0.0, 0.0, -40.0) },
-            usetime = 7500,
-        },
-    },
 
 
 
@@ -531,6 +541,10 @@ return {
             usetime = 7500,
         },
     },
+
+
+    -- COFFEES
+
 
     ['coffee_black'] = { -- Carbonized syrup is good for the soul
         label = 'Black Coffee',
@@ -591,6 +605,10 @@ return {
             usetime = 7500,
         },
     },
+
+
+    -- SODAS
+
 
     ['ecola'] = { -- Carbonized syrup is good for the soul
         label = 'eCola',
@@ -664,6 +682,7 @@ return {
     --[[ --------------------------------------------------------------------------------
                                         <! ALCOHOL !>
     -------------------------------------------------------------------------------- ]]--
+    -- BEERS
     ['rancho_beer'] = { -- Good ol imported beer from mexico
         label = 'Cerbesa Barracho',
         weight = 290,

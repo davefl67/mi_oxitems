@@ -5,6 +5,7 @@
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
 
+-- RECREATIONAL
 Item('cigar', function(data, slot) -- Will lightly damage heath on use
 	local maxHealth = GetEntityMaxHealth(cache.ped)
 	local health = GetEntityHealth(cache.ped)
@@ -38,11 +39,17 @@ Item('vape', function(data, slot) -- Will lightly damage heath on use
 	end)
 end)
 
+<<<<<<< Updated upstream
 Item('clothing_bag', function(data, slot) -- opens burner phone menu 
 	ox_inventory:useItem(data, function(data)
 		TriggerEvent('ox_appearance:wardrobe')
 	end)
 end)
+=======
+
+-- BODY ARMOR
+
+>>>>>>> Stashed changes
 
 Item('bodyarmor_1', function(data, slot) -- Adds 30% of body armor
 	if GetPedArmour(cache.ped) < 100 then
@@ -76,6 +83,10 @@ Item('bodyarmor_3', function(data, slot) -- Adds 100% of body armor
 		end)
 	end
 end)
+
+
+-- DRUG EFFECTS
+
 
 Item('weed_sativa', function(data, slot) -- causes drug effect
 	ox_inventory:useItem(data, function(data)
@@ -124,6 +135,10 @@ Item('weed_hybrid', function(data, slot) -- causes drug effect
 		end
 	end)
 end)
+
+
+-- POLICE BADGES
+
 
 Item('badge_fib', function(data, slot) -- Adds 100% of body armor
 	local pos = GetEntityCoords(GetPlayerPed(-1))
