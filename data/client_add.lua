@@ -39,17 +39,14 @@ Item('vape', function(data, slot) -- Will lightly damage heath on use
 	end)
 end)
 
-<<<<<<< Updated upstream
 Item('clothing_bag', function(data, slot) -- opens burner phone menu 
 	ox_inventory:useItem(data, function(data)
 		TriggerEvent('ox_appearance:wardrobe')
 	end)
 end)
-=======
 
 -- BODY ARMOR
 
->>>>>>> Stashed changes
 
 Item('bodyarmor_1', function(data, slot) -- Adds 30% of body armor
 	if GetPedArmour(cache.ped) < 100 then

@@ -756,6 +756,7 @@ return {
                                         <! GIVING ITEMS !>
     -------------------------------------------------------------------------------- ]]--
 
+    -- ALCOHOL CRATES
     ['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
         label = 'Case of Rancho Beer',
         weight = 3500,
@@ -824,6 +825,7 @@ return {
         }
     },
 
+    -- PIZZA BOXES
     
     ['box_pizza_chs'] = { -- idea: Player uses item to show badge prop
         label = 'Box of Cheese Pizza',
@@ -905,6 +907,8 @@ return {
         }
     },
 
+
+    -- AMMO CRATES
     ['box_ammo_rifle1'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 5.56x45 (x120)',
         weight = 5,
