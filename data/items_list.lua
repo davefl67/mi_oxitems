@@ -1085,6 +1085,33 @@ return {
         }
     },
 
+    -- TESTING Cigarettes script
+    ['redwoods'] = {
+        label = 'Redwoods',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = 'Pack of Original Red Wood Killer Cigarettes',
+        consume = 0,
+        client = {
+            status = { stress = -100000 },
+            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
+            prop = { model = 'bzzz_cigarpack_cig002', 
+            pos = { x = 0.00, y = 0.0, z = -0.00}, 
+            rot = { x = 0.0, y = 0.0, z = 0.0}, 
+            bone = 28422 },
+            usetime = 15000,
+        },
+        buttons = {
+            {
+                label = 'Remove Cigarette',
+                action = function(slot)
+                    TriggerServerEvent('gr8_stuff:item:removeCig', slot, {indent=true})
+                end
+            },
+        }
+    },
+
     ['cigar'] = { -- social item that causes slight damage to health
         label = 'Cigar',
         weight = 115,

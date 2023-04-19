@@ -132,3 +132,16 @@ Item('box_ammo_sniper', function(event, item, inventory, data, slot)
     	Inventory.AddItem(inventory, 'ammo-sniper', 30)
 	end
 end)
+
+
+-- TESTING for CIG
+--[[
+	elseif item.name == 'garbage' then
+            local trashType = trash[math.random(1, #trash)]
+            metadata.image = trashType.image
+            metadata.weight = trashType.weight
+            metadata.description = trashType.description
+        elseif item.name == '69brand' then
+            metadata.weight = 25
+                end
+]]

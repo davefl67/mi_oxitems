@@ -183,3 +183,12 @@ Item('phone_burner', function(data, slot) -- opens burner phone menu
 		--exports['MI_Darkweb']:midarkweb_client_openwebmenu()
 	end)
 end)
+
+-- TESTING CIG
+Item('redwoods', function(data, slot)
+    ox_inventory:useItem(data, function(data)
+        if data then
+            TriggerServerEvent('invsup:server:item:smoke_cig', data, {indent=true})
+        end
+    end)
+end)

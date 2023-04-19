@@ -8,6 +8,10 @@ dependencies {
     '/onesync',
 }
 
+server_scripts = {
+    'server.lua'
+}
+
 -- https://forum.cfx.re/t/free-dingus-prop/5017149
 data_file 'DLC_ITYP_REQUEST' 'dingus.ytyp'
 
