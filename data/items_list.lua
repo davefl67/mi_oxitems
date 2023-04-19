@@ -1,41 +1,10 @@
 return {
-	--[[
-	Test burger reference for items
-	['testburger'] = {
-		label = 'Test Burger',
-		weight = 220,
-		degrade = 60,
-		client = {
-			status = { hunger = 200000 },
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			export = 'ox_inventory_examples.testburger'
-		},
-		server = {
-			export = 'ox_inventory_examples.testburger',
-			test = 'what an amazingly delicious burger, amirite?'
-		},
-		buttons = {
-			{
-				label = 'Lick it',
-				action = function(slot)
-					print('You licked the burger')
-				end
-			},
-			{
-				label = 'Squeeze it',
-				action = function(slot)
-					print('You squeezed the burger :(')
-				end
-			}
-		},
-		consume = 0.3
-	},
-	]]
-	--[[ --------------------------------------------------------------------------------
-                                        <! FOOD !>
-    -------------------------------------------------------------------------------- ]]--
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- FOOD: General
+
     ['sandwich'] = { -- A simple sandwich for a simple day
         label = 'Sandwich',
         weight = 350,
@@ -111,6 +80,22 @@ return {
         },
     },
 
+    ['noodles'] = { -- Fuck those baked shits are good af
+        label = 'Thai Noodles',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "นี่คือบะหมี่",
+        client = {
+            status = { hunger = 160000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_ret_fh_noodle', 
+            pos = vec3(-0.03, 0.01, 0.05), 
+            rot = vec3(0.0, 0.0, -40.0) },
+            usetime = 7500,
+        },
+    },
+
     ['fr_fries'] = { -- A test hamburger that you can eat
         label = 'French Fries',
         weight = 350,
@@ -127,7 +112,10 @@ return {
     },
 
 
-    -- PIZZAS
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- FOOD: Pizzas
 
 
     ['pizza_pep'] = { -- A simple sandwich for a simple day
@@ -216,7 +204,10 @@ return {
     },
 
 
-    -- SNACKS
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- FOOD: Snacks
 
 
     ['phatc_rib'] = { -- A skeletons favorite snack
@@ -294,23 +285,62 @@ return {
         },
     },
     
-    ['noodles'] = { -- Fuck those baked shits are good af
-        label = 'Thai Noodles',
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- FOOD: Deserts
+
+    ['donut_chc'] = { -- Fuck those baked shits are good af
+        label = 'Chocolate Donut',
         weight = 350,
         stack = true,
         close = true,
-        description = "นี่คือบะหมี่",
+        description = "Mmmmm, refrence",
         client = {
-            status = { hunger = 160000 },
-            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = 'v_ret_fh_noodle', 
-            pos = vec3(-0.03, 0.01, 0.05), 
-            rot = vec3(0.0, 0.0, -40.0) },
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_foodpack_donut002', 
+            bone = 18905,
+            pos = vec3(0.13, 0.050, 0.020), 
+            rot = vec3(-50.0, 100.0, 270.0) },
             usetime = 7500,
         },
     },
 
-    -- DESSERTS & SWEETS
+    ['donut_sby'] = { -- Fuck those baked shits are good af
+        label = 'Strawberry Donut',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Mmmmm, refrence",
+        client = {
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_foodpack_donut001', 
+            bone = 18905,
+            pos = vec3(0.13, 0.050, 0.020), 
+            rot = vec3(-50.0, 100.0, 270.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['smore'] = { -- Fuck those baked shits are good af
+        label = 'Smore',
+        weight = 350,
+        stack = true,
+        close = true,
+        description = "Mmmmm, refrence",
+        client = {
+            status = { hunger = 70000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_food_dessert_a', 
+            bone = 18905,
+            pos = vec3(0.15, 0.03, 0.03), 
+            rot = vec3(-42.0, -36.0, 0.0) },
+            usetime = 7500,
+        },
+    },
 
     ['icecream_chr'] = { -- brain cold go brrrrr
         label = 'Cherry Ice Cream',
@@ -448,67 +478,20 @@ return {
         },
     },
 
-    ['donut_chc'] = { -- Fuck those baked shits are good af
-        label = 'Chocolate Donut',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "Mmmmm, refrence",
-        client = {
-            status = { hunger = 70000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_foodpack_donut002', 
-            bone = 18905,
-            pos = vec3(0.13, 0.050, 0.020), 
-            rot = vec3(-50.0, 100.0, 270.0) },
-            usetime = 7500,
-        },
-    },
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- FOOD: Meal-ready-eat
+    -- Meal: Chili-Mac, Beef Stew, Chicken Enchiladas, Veggie Omelet, Chicken-a-la-king
+    -- Side: Rice, Corn, Fruit, Mashed Potatoes
+    -- Bread
+    -- Spread: PButter, Jelly, Cheese, Jalepeno Spread
+    -- Dessert: Ps&Qs, Smore, Cookie
 
-    ['donut_sby'] = { -- Fuck those baked shits are good af
-        label = 'Strawberry Donut',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "Mmmmm, refrence",
-        client = {
-            status = { hunger = 70000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_foodpack_donut001', 
-            bone = 18905,
-            pos = vec3(0.13, 0.050, 0.020), 
-            rot = vec3(-50.0, 100.0, 270.0) },
-            usetime = 7500,
-        },
-    },
-
-    ['smore'] = { -- Fuck those baked shits are good af
-        label = 'Smore',
-        weight = 350,
-        stack = true,
-        close = true,
-        description = "Mmmmm, refrence",
-        client = {
-            status = { hunger = 70000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_food_dessert_a', 
-            bone = 18905,
-            pos = vec3(0.15, 0.03, 0.03), 
-            rot = vec3(-42.0, -36.0, 0.0) },
-            usetime = 7500,
-        },
-    },
-
-
-
-
-
-
-
-
-    --[[ --------------------------------------------------------------------------------
-                                        <! DRINKS !>
-    -------------------------------------------------------------------------------- ]]--
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- DRINKS: General
 
     ['water'] = { -- Carbonized syrup is good for the soul
         label = 'Water Bottle',

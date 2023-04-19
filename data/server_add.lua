@@ -53,6 +53,9 @@ setContainerProperties('giftbox_white', {
 
 -- add to end of file above 'return Items'
 
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- Beer Cases
 Item('box_rancho_beer', function(event, item, inventory, data, slot)
 	if event == 'usedItem' then
     	Inventory.AddItem(inventory, 'rancho_beer', 6)
@@ -77,7 +80,9 @@ Item('box_patriot_beer', function(event, item, inventory, data, slot)
 	end
 end)
 
-
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- Pizza Boxes
 Item('box_pizza_chs', function(event, item, inventory, data, slot)
 	if event == 'usedItem' then
     	Inventory.AddItem(inventory, 'pizza_chs', 8)
@@ -108,7 +113,9 @@ Item('box_pizza_dmt', function(event, item, inventory, data, slot)
 	end
 end)
 
-
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- Ammo
 Item('box_ammo_rifle1', function(event, item, inventory, data, slot)
 	if event == 'usedItem' then
     	Inventory.AddItem(inventory, 'ammo-rifle1', 120)
@@ -133,6 +140,18 @@ Item('box_ammo_sniper', function(event, item, inventory, data, slot)
 	end
 end)
 
+----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------- 
+-- FOOD: Meal-ready-eat
+Item('mre_1', function(event, item, inventory, data, slot)
+	if event == 'usedItem' then
+    	Inventory.AddItem(inventory, 'mre_beefstew', 1) -- meal
+		Inventory.AddItem(inventory, 'apple', 1) -- side
+		Inventory.AddItem(inventory, 'mre_bread', 1) -- bread
+		Inventory.AddItem(inventory, 'WORDS', 1) -- spread
+		Inventory.AddItem(inventory, 'Smore', 1) -- dessert
+	end
+end)
 
 -- TESTING for CIG
 --[[
