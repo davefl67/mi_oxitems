@@ -662,10 +662,10 @@ return {
 
 
 
-    --[[ --------------------------------------------------------------------------------
-                                        <! ALCOHOL !>
-    -------------------------------------------------------------------------------- ]]--
-    -- BEERS
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- ALCOHOL: Beers
     ['rancho_beer'] = { -- Good ol imported beer from mexico
         label = 'Cerbesa Barracho',
         weight = 290,
@@ -735,11 +735,10 @@ return {
 
 
 
-    --[[ --------------------------------------------------------------------------------
-                                        <! GIVING ITEMS !>
-    -------------------------------------------------------------------------------- ]]--
-
-    -- ALCOHOL CRATES
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: Beer crates
     ['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
         label = 'Case of Rancho Beer',
         weight = 3500,
@@ -808,8 +807,10 @@ return {
         }
     },
 
-    -- PIZZA BOXES
-    
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: Pizza boxes
     ['box_pizza_chs'] = { -- idea: Player uses item to show badge prop
         label = 'Box of Cheese Pizza',
         weight = 3500,
@@ -891,7 +892,10 @@ return {
     },
 
 
-    -- AMMO CRATES
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: Ammo cases
     ['box_ammo_rifle1'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 5.56x45 (x120)',
         weight = 5,
@@ -968,10 +972,10 @@ return {
 
 
 
-    --[[ --------------------------------------------------------------------------------
-                                        <! USABLE ITEMS !>
-    -------------------------------------------------------------------------------- ]]--
-
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLE: Items
     ['dingus'] = { -- idea: Player uses item to show badge prop
         label = 'Dingus',
         weight = 6969,
@@ -1195,10 +1199,10 @@ return {
 
 
 
-    --[[ --------------------------------------------------------------------------------
-                                        <! USABLE DRUGS !>
-    -------------------------------------------------------------------------------- ]]--
-
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- DRUGS: Weed
     ['weed_sativa'] = { -- idea: use for player to hype up
         label = 'Amnesia Haze',
         consume = 0.267,
@@ -1250,11 +1254,10 @@ return {
 
 
 
-    --[[ --------------------------------------------------------------------------------
-                                        <! POLICE BADGES !>
-    -------------------------------------------------------------------------------- ]]--
-
-    -- FIB / BCSO / LSSD / LSPD / SAFD / Etc.
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- BADGES: Police
     ['badge_fib'] = { -- idea: Player uses item to show badge prop
         label = 'FIB Badge',
         weight = 444,
@@ -1310,4 +1313,274 @@ return {
             usetime = 5000,
         }
     },
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- TESTING
+    -- Meal bags
+    ['mre_1'] = { 
+        label = 'MRE-001',
+        weight = 3500,
+        stack = false,
+        close = true,
+        description = "Contains: Meal, Side, Bread, Spread, Dessert",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_2'] = { 
+        label = 'MRE-002',
+        weight = 3500,
+        stack = false,
+        close = true,
+        description = "Contains: Meal, Side, Bread, Spread, Dessert",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_3'] = { 
+        label = 'MRE-003',
+        weight = 3500,
+        stack = false,
+        close = true,
+        description = "Contains: Meal, Side, Bread, Spread, Dessert",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_4'] = { 
+        label = 'MRE-004',
+        weight = 3500,
+        stack = false,
+        close = true,
+        description = "Contains: Meal, Side, Bread, Spread, Dessert",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_5'] = { 
+        label = 'MRE-005',
+        weight = 3500,
+        stack = false,
+        close = true,
+        description = "Contains: Meal, Side, Bread, Spread, Dessert",
+        client = {
+            status = { hunger = 50000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    -- Main meals
+    ['mre_chilimac'] = { 
+        label = 'Chili Mac bag',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Meal-ready-to-eat",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_beefstew'] = { 
+        label = 'Beef Stew bag',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Meal-ready-to-eat",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_chkenchilada'] = { 
+        label = 'Chicken Enchiladas bag',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Meal-ready-to-eat",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_veggieomelet'] = { 
+        label = 'Veggie Omelet bag',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Meal-ready-to-eat",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_chknking'] = { 
+        label = 'Chicken-a-la-king bag',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Meal-ready-to-eat",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'bzzz_icecream_walnut', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    -- Supp. food
+    ['mre_tmsoup'] = { 
+        label = 'MRE Tom. soup',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Standard military side soup",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'v_res_fa_bread03', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_corn'] = { 
+        label = 'MRE Canned Corn',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Standard military side dish",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'v_res_fa_bread03', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    ['mre_bread'] = { 
+        label = 'MRE Bread',
+        weight = 1250,
+        stack = true,
+        close = true,
+        description = "Standard military bread",
+        client = {
+            status = { hunger = 250000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'v_res_fa_bread03', 
+            bone = 18905,
+            pos = vec3(0.14, 0.03, 0.01), 
+            rot = vec3(85.0, 70.0, -203.0) },
+            usetime = 7500,
+        },
+    },
+
+    -- Spreads
+    ['mre_pbtr'] = { 
+        label = 'MRE Peanut Butter',
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "Standard military spread",
+        -- combine with mre_bread
+    },
+
+    ['mre_jelly'] = { 
+        label = 'MRE Grape Jelly',
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "Standard military spread",
+        -- combine with mre_bread
+    },
+
+    ['mre_chse'] = { 
+        label = 'MRE Cheese',
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "Standard military spread",
+        -- combine with mre_bread
+    },
+
+    ['mre_jpchse'] = { 
+        label = 'MRE Jalepeno Cheese',
+        weight = 500,
+        stack = true,
+        close = true,
+        description = "Standard military spread",
+        -- combine with mre_bread
+    },
+
+
 }

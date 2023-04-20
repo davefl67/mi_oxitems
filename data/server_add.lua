@@ -147,20 +147,22 @@ Item('mre_1', function(event, item, inventory, data, slot)
 	if event == 'usedItem' then
     	Inventory.AddItem(inventory, 'mre_beefstew', 1) -- meal
 		Inventory.AddItem(inventory, 'apple', 1) -- side
-		Inventory.AddItem(inventory, 'mre_bread', 1) -- bread
-		Inventory.AddItem(inventory, 'WORDS', 1) -- spread
+		Inventory.AddItem(inventory, 'mre_bread', 2) -- bread
+		Inventory.AddItem(inventory, 'mre_jpchse', 2) -- spread
 		Inventory.AddItem(inventory, 'Smore', 1) -- dessert
 	end
 end)
 
 -- TESTING for CIG
 --[[
+	replace lines 307-314 with this
+	
 	elseif item.name == 'garbage' then
-            local trashType = trash[math.random(1, #trash)]
-            metadata.image = trashType.image
-            metadata.weight = trashType.weight
-            metadata.description = trashType.description
-        elseif item.name == '69brand' then
-            metadata.weight = 25
-                end
+			local trashType = trash[math.random(1, #trash)]
+			metadata.image = trashType.image
+			metadata.weight = trashType.weight
+			metadata.description = trashType.description
+		elseif item.name == 'redwoods' then
+			metadata.weight = 25
+		end
 ]]

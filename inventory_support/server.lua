@@ -36,11 +36,11 @@ AddEventHandler('invsup:server:item:remove_cig', function(slot)
     info.metadata.description = 'Pack of ' .. info.metadata.total .. ' Cigarettes'
     if info.metadata.total > 0 then
         Inventory:SetMetadata(_source, info.slot, info.metadata)
-        Inventory:AddItem(_source, 'cig', 1, nil, nil)
+        Inventory:AddItem(_source, 'cigarette', 1, nil, nil)
         TriggerClientEvent('ox_inventory:notify', _source, {text = 'Your pack has ' .. info.metadata.total .. ' cigarettes left'})
     else
         Inventory:RemoveItem(_source, info.name, 1, nil, info.slot)
-        Inventory:AddItem(_source, 'cig', 1, nil, nil)
+        Inventory:AddItem(_source, 'cigarette', 1, nil, nil)
         TriggerClientEvent('ox_inventory:notify', _source, {text = 'Your pack is empty now'})
     end
 end)
