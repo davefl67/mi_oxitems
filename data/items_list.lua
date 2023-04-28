@@ -1319,176 +1319,122 @@ return {
 
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------- 
-    -- TESTING
+    ----------------------------------------------------------------------------------------------------
     -- Meal bags
+
+    -- Main meals
     ['mre_1'] = { 
         label = 'MRE-001',
         weight = 3500,
         stack = false,
-        close = true,
-        description = "Contains: Meal, Side, Bread, Spread, Dessert",
-        client = {
-            status = { hunger = 50000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
-            usetime = 7500,
-        },
+        close = false,
+        description = "Contains: Meal, Side, Bread, Dessert",
     },
 
     ['mre_2'] = { 
         label = 'MRE-002',
         weight = 3500,
         stack = false,
-        close = true,
-        description = "Contains: Meal, Side, Bread, Spread, Dessert",
-        client = {
-            status = { hunger = 50000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
-            usetime = 7500,
-        },
+        close = false,
+        description = "Contains: Meal, Side, Bread, Dessert",
     },
 
     ['mre_3'] = { 
         label = 'MRE-003',
         weight = 3500,
         stack = false,
-        close = true,
-        description = "Contains: Meal, Side, Bread, Spread, Dessert",
-        client = {
-            status = { hunger = 50000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
-            usetime = 7500,
-        },
+        close = false,
+        description = "Contains: Meal, Side, Bread, Dessert",
     },
 
     ['mre_4'] = { 
         label = 'MRE-004',
         weight = 3500,
         stack = false,
-        close = true,
-        description = "Contains: Meal, Side, Bread, Spread, Dessert",
-        client = {
-            status = { hunger = 50000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
-            usetime = 7500,
-        },
+        close = false,
+        description = "Contains: Meal, Side, Bread, Dessert",
     },
 
     ['mre_5'] = { 
         label = 'MRE-005',
         weight = 3500,
         stack = false,
-        close = true,
-        description = "Contains: Meal, Side, Bread, Spread, Dessert",
-        client = {
-            status = { hunger = 50000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
-            usetime = 7500,
-        },
+        close = false,
+        description = "Contains: Meal, Side, Bread, Dessert",
     },
 
     -- Main meals
     ['mre_chilimac'] = { 
-        label = 'Chili Mac bag',
+        label = 'MRE - Chili Mac',
         weight = 1250,
         stack = true,
         close = true,
         description = "Meal-ready-to-eat",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
 
     ['mre_beefstew'] = { 
-        label = 'Beef Stew bag',
+        label = 'MRE - Beef Stew',
         weight = 1250,
         stack = true,
         close = true,
         description = "Meal-ready-to-eat",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
 
     ['mre_chkenchilada'] = { 
-        label = 'Chicken Enchiladas bag',
+        label = 'MRE - Chkn Enchiladas',
         weight = 1250,
         stack = true,
         close = true,
         description = "Meal-ready-to-eat",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
 
     ['mre_veggieomelet'] = { 
-        label = 'Veggie Omelet bag',
+        label = 'MRE - Veggie Omelet',
         weight = 1250,
         stack = true,
         close = true,
         description = "Meal-ready-to-eat",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
 
     ['mre_chknking'] = { 
-        label = 'Chicken-a-la-king bag',
+        label = 'MRE - Chicken-a-la-king',
         weight = 1250,
         stack = true,
         close = true,
         description = "Meal-ready-to-eat",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'bzzz_icecream_walnut', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
@@ -1502,11 +1448,9 @@ return {
         description = "Standard military side soup",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'v_res_fa_bread03', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tintomsoup', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
@@ -1519,11 +1463,9 @@ return {
         description = "Standard military side dish",
         client = {
             status = { hunger = 250000 },
-            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-            prop = { model = 'v_res_fa_bread03', 
-            bone = 18905,
-            pos = vec3(0.14, 0.03, 0.01), 
-            rot = vec3(85.0, 70.0, -203.0) },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'v_res_fa_tincorn', 
+            pos = vec3(-0.01, -0.01, 0.01), rot = vec3(1.0, 5.0, -182.5) },
             usetime = 7500,
         },
     },
@@ -1544,43 +1486,5 @@ return {
             usetime = 7500,
         },
     },
-
-    -- Spreads
-    ['mre_pbtr'] = { 
-        label = 'MRE Peanut Butter',
-        weight = 500,
-        stack = true,
-        close = true,
-        description = "Standard military spread",
-        -- combine with mre_bread
-    },
-
-    ['mre_jelly'] = { 
-        label = 'MRE Grape Jelly',
-        weight = 500,
-        stack = true,
-        close = true,
-        description = "Standard military spread",
-        -- combine with mre_bread
-    },
-
-    ['mre_chse'] = { 
-        label = 'MRE Cheese',
-        weight = 500,
-        stack = true,
-        close = true,
-        description = "Standard military spread",
-        -- combine with mre_bread
-    },
-
-    ['mre_jpchse'] = { 
-        label = 'MRE Jalepeno Cheese',
-        weight = 500,
-        stack = true,
-        close = true,
-        description = "Standard military spread",
-        -- combine with mre_bread
-    },
-
 
 }
