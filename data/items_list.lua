@@ -298,7 +298,7 @@ return {
         close = true,
         description = "Mmmmm, refrence",
         client = {
-            status = { hunger = 70000 },
+            status = { hunger = 150000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'bzzz_foodpack_donut002', 
             bone = 18905,
@@ -315,7 +315,7 @@ return {
         close = true,
         description = "Mmmmm, refrence",
         client = {
-            status = { hunger = 70000 },
+            status = { hunger = 150000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'bzzz_foodpack_donut001', 
             bone = 18905,
@@ -332,7 +332,7 @@ return {
         close = true,
         description = "Mmmmm, refrence",
         client = {
-            status = { hunger = 70000 },
+            status = { hunger = 90000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'bzzz_food_dessert_a', 
             bone = 18905,
