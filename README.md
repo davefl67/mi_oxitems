@@ -7,6 +7,8 @@ I put this together for my own server that I'm working on, but I thought I would
 ![Tim](https://user-images.githubusercontent.com/116332087/219994733-ad6870e3-5808-4e5b-baad-b8a3553c7686.png)
 *badges used require the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) resource*
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S5IBXL6)
+
 ## Upcoming changes:
 'prop_stream' will be changed to 'inventory_support' to work as a script for item exports / effects.
 - remove / replace 'prop_stream' to 'inventory_support'
