@@ -12,6 +12,9 @@ server_scripts = {
     'server.lua'
 }
 
+-- https://www.lcpdfr.com/downloads/gta5mods/misc/32225-eup-badges/
+data_file 'DLC_ITYP_REQUEST' 'badges.ytyp'
+
 -- https://forum.cfx.re/t/free-dingus-prop/5017149
 data_file 'DLC_ITYP_REQUEST' 'dingus.ytyp'
 

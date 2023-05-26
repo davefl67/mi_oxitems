@@ -5,7 +5,6 @@ I put this together for my own server that I'm working on, but I thought I would
 ![item_images](https://user-images.githubusercontent.com/116332087/220464487-23600a1c-9702-4696-bee7-4ac62df7eb9f.png)
 
 ![Tim](https://user-images.githubusercontent.com/116332087/219994733-ad6870e3-5808-4e5b-baad-b8a3553c7686.png)
-*badges used require the [Badge Props](https://github.com/MIAgimir/FiveM-LeoBadgeProps) resource*
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S5IBXL6)
 
@@ -22,6 +21,7 @@ I put this together for my own server that I'm working on, but I thought I would
 - 3 animated drugs
 - 4 animated badges
 - 4 storage items
+- 15 badge items
 
 ## Configured server items for use:
 - 4 beer cases (gives player chosen beer)
