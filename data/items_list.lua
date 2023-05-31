@@ -478,15 +478,12 @@ return {
         },
     },
 
-    ----------------------------------------------------------------------------------------------------
-	----------------------------------------------------------------------------------------------------
-    ---------------------------------------------------------------------------------------------------- 
-    -- FOOD: Meal-ready-eat
-    -- Meal: Chili-Mac, Beef Stew, Chicken Enchiladas, Veggie Omelet, Chicken-a-la-king
-    -- Side: Rice, Corn, Fruit, Mashed Potatoes
-    -- Bread
-    -- Spread: PButter, Jelly, Cheese, Jalepeno Spread
-    -- Dessert: Ps&Qs, Smore, Cookie
+
+
+
+
+
+
 
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
@@ -726,7 +723,126 @@ return {
         },
     },
 
+    -- ALCOHOL: Bottles
+    ['bb_bourgeoix'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Bourgeoix Cognac',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_bottle_cognac', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
 
+    ['bb_cariaque'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Cariaque Bourbon',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_bottle_brandy', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['cb_bleuterd'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Bleuter\'d Champagne',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "For those fancy events",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_champ_01b', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['rb_ragga'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Ragga Rum',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "A pirates drink for me",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_rum_bottle', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['tb_tequilya'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Tequilya Tequila',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "For extra kick, add snake venom",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_tequila_bottle', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['vb_nogo'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Nogo Vodka',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Chilled like the mountains of Siberia",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_vodka_bottle', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['wb_mount'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Mount Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "The cowboy's choice for getting plastered",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_cs_whiskey_bottle', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
+
+    ['wb_richards'] = { -- Good ol imported beer from mexico
+        label = 'Bottle of Richard\'s Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "For the refined taste buds you so clearly have",
+        client = {
+            status = { drunk = 180000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'prop_bottle_richard', 
+            pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 7500,
+        },
+    },
 
 
 
