@@ -844,6 +844,256 @@ return {
         },
     },
 
+    -- ALCOHOL: Glasses
+    ['bg_bourgeiox'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Bourgeoix Cognac',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['bg_cariaque'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Cariaque Bourbon',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['bs_bourgeiox'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Bourgeoix Cognac',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+
+    ['bs_cariaque'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Cariaque Bourbon',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+
+    ['cg_bleuterd'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Bleuter\'d Champagne',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_champ', 
+            pos = vec3(0.16, -0.19, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['tg_martini'] = { -- Good ol imported beer from mexico
+        label = 'Martini',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_tequila', 
+            pos = vec3(0.16, -0.12, -0.06), 
+            rot = vec3(280.00, 90.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['tg_sunrise'] = { -- Good ol imported beer from mexico
+        label = 'Tequilya Sunrise',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_tequsunrise', 
+            pos = vec3(0.16, -0.1, -0.05), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['tg_tequilya'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Tequilya',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['ts_tequilya'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Tequilya',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+
+    ['vg_nogo'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Nogo Vodka',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['vs_nogo'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Nogo Vodka',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+
+    ['wg_mount'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Mount Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['wg_richards'] = { -- Good ol imported beer from mexico
+        label = 'Glass of Richard\'s Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_drink_whisky', 
+            pos = vec3(0.16, -0.02, -0.06), 
+            rot = vec3(270.00, 0.00, 0.00),
+            bone = 57005},
+            usetime = 12000,
+        },
+    },
+
+    ['ws_mount'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Mount Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+
+    ['ws_richards'] = { -- Good ol imported beer from mexico
+        label = 'Shot of Richard\'s Whiskey',
+        weight = 290,
+        stack = true,
+        close = true,
+        description = "Like whiskey, but more ouch",
+        client = {
+            status = { drunk = 10000 },
+            anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+            prop = { model = 'p_cs_shot_glass_2_s', 
+            pos = vec3(0.02, -0.01, 0.08), 
+            rot = vec3(1.0, 5.0, -182.5) },
+            usetime = 2000,
+        },
+    },
+    
 
 
 
