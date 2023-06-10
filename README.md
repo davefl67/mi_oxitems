@@ -8,10 +8,6 @@ I put this together for my own server that I'm working on, but I thought I would
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S5IBXL6)
 
-## Upcoming changes:
-'prop_stream' will be changed to 'inventory_support' to work as a script for item exports / effects.
-- remove / replace 'prop_stream' to 'inventory_support'
-
 ## Configured items for use:
 - 1 super secret item that isn't ready yet
 - 28 animated foods
