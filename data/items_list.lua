@@ -1570,7 +1570,7 @@ return {
     ---------------------------------------------------------------------------------------------------- 
     -- DRUGS: Weed
     ['weed_sativa'] = { -- idea: use for player to hype up
-        label = 'Amnesia Haze',
+        label = '3oz Amnesia Haze',
         consume = 0.267,
         weight = 15,
         description = "Oh man, what a dingus, just Look at em",
@@ -1584,7 +1584,7 @@ return {
     },
 
     ['weed_indica'] = { -- idea: use for player to relax
-        label = 'Afghan Kush',
+        label = '3oz Afghan Kush',
         consume = 0.267,
         weight = 15,
         description = "Oh man, what a dingus, just Look at em",
@@ -1598,7 +1598,7 @@ return {
     },
 
     ['weed_hybrid'] = { -- idea: higher end weed
-        label = 'White Widow',
+        label = '3oz White Widow',
         consume = 0.267,
         weight = 15,
         description = "Oh man, what a dingus, just Look at em",
