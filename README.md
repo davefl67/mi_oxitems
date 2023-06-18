@@ -1,4 +1,7 @@
 # Items Template for [Ox_Inventory](https://github.com/overextended/ox_inventory) | **Credit to [OverExtended Team](https://github.com/overextended)**
+![GitHub all releases](https://img.shields.io/github/downloads/MIAgimir/Ox_Inventory-ItemsTemplate/total)
+![GitHub](https://img.shields.io/github/license/MIAgimir/Ox_Inventory-ItemsTemplate)
+
 I put this together for my own server that I'm working on, but I thought I would share the items & effects. I'll add to it as I edit and add more items and I will notate which files go where in the client / server code so that it should be easy to put together. I also added the latest weapons from the recent updates.
 
 ##### Image Quality: *I use adobe illustrator to cut out & size the images, without losing too much of the quality*
