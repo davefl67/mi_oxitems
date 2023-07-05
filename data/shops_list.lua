@@ -470,6 +470,20 @@ return {
 		}
 	},
 
+	VendingMachineSnacks = {
+		name = 'Vending Machine',
+		inventory = {
+			{ name = 'phatc_rib', price = 3 },
+			{ name = 'phatc_bch', price = 3 },
+			{ name = 'ps_qs', price = 2 },
+			{ name = 'apple', price = 2 },
+			{ name = 'banana', price = 2 },
+		},
+		model = {
+			'prop_vend_snak_01', 'prop_vend_snak_01_tu'
+		}
+	},
+
 	VendingMachineCoffee = {
 		name = 'Coffee Machine',
 		inventory = {
