@@ -1896,4 +1896,79 @@ return {
         
     },
 
+    
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- TICKETS: fleeca heist update
+    ['bag_blackmoney'] = { 
+        label = 'MBA Ticket: Luxury',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "VIP lounge with a kitchen and bar",
+    },
+
+    ['drill_thermal'] = { 
+        label = 'MBA Ticket: Delux',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "Sit in the upper area for a better view",
+    },
+
+    ['hack_tablet'] = { 
+        label = 'MBA Ticket: Standard',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "Standard seating close to the arena", 
+    },
+
+    ['scard_fleeca'] = { 
+        label = 'MBA Ticket: Luxury',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "VIP lounge with a kitchen and bar",
+    },
+
+    ['cig_69brand'] = { 
+        label = 'MBA Ticket: Delux',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "Sit in the upper area for a better view",
+    },
+
+    ['cig_redwood'] = { 
+        label = 'MBA Ticket: Standard',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "Standard seating close to the arena", 
+    },
+
+    ['cig_debonaire'] = { 
+        label = 'MBA Ticket: Standard',
+        weight = 500,
+        stack = false,
+        degrade = 2,
+        consume = 1,
+        description = "Standard seating close to the arena", 
+    },
+
 }
