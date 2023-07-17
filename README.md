@@ -23,4 +23,3 @@ I put this together for my own server that I'm working on, but I thought I would
 - copy the contents of *shops_list.lua* and insert it into the *data/shops.lua* file
 - copy the contents of *client_add.lua* and insert it into the *modules/items/client.lua* file at the bottom of the file
 - copy the contents of *server_add.lua* and insert it into the *modules/items/server.lua* file at the top of the file
-- place the *inventory_support* folder to your resources folder & add "*ensure inventory_support*" to your server CFG
