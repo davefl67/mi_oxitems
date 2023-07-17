@@ -184,11 +184,51 @@ Item('phone_burner', function(data, slot) -- opens burner phone menu
 	end)
 end)
 
--- TESTING CIG
-Item('redwoods', function(data, slot)
-    ox_inventory:useItem(data, function(data)
-        if data then
-            TriggerServerEvent('invsup:server:item:smoke_cig', data, {indent=true})
-        end
-    end)
+-- RECREATIONAL
+Item('kit_vrepair', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:kit_vrepair()
+	end)
+end)
+
+Item('kit_vclean', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:kit_vclean()
+	end)
+end)
+
+Item('cig_69brand', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:smokingcig()
+	end)
+end)
+
+Item('cig_redwood', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:smokingcig()
+	end)
+end)
+
+Item('cig_debonaire', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:smokingcig()
+	end)
+end)
+
+Item('bomb_exps', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:bomb_exps()
+	end)
+end)
+
+Item('bomb_gass', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:bomb_gass()
+	end)
+end)
+
+Item('bomb_fire', function(data, slot) -- smoking function
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:bomb_fire()
+	end)
 end)

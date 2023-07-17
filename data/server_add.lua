@@ -5,29 +5,6 @@
                     make sure you have the item in your items file
                     (the one that came with this resource)
 -------------------------------------------------------------------------------- ]]--
-
--- if not up to date with current ox_inventory version, use the below containers
-addToList {
-
-  ------------------------
-  ['wallet'] = {
-		size = {5, 3000},
-	},
-
-  ['box_small'] = {
-		size = {5, 7500},
-	},
-
-  ['giftbox_red'] = {
-		size = {3, 5000},
-	},
-
-  ['giftbox_white'] = {
-		size = {3, 5000},
-	},
-  ------------------------
-}
-
 -- if up to date with current ox_inventory version, use the below containers in the containers.lua file
 
 setContainerProperties('wallet', {
@@ -51,8 +28,9 @@ setContainerProperties('giftbox_white', {
 	maxWeight = 3000,
 })
 
--- add to end of file above 'return Items'
 
+-- IN THE MODULES/ITEMS/SERVER.LUA
+-- add to end of file above 'return Items'
 ----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------- 
 -- Beer Cases
@@ -187,17 +165,3 @@ Item('mre_5', function(event, item, inventory, data, slot)
 		Inventory.AddItem(inventory, 'ps_qs', 1) -- dessert
 	end
 end)
-
--- TESTING for CIG
---[[
-	replace lines 307-314 with this
-	
-	elseif item.name == 'garbage' then
-			local trashType = trash[math.random(1, #trash)]
-			metadata.image = trashType.image
-			metadata.weight = trashType.weight
-			metadata.description = trashType.description
-		elseif item.name == 'redwoods' then
-			metadata.weight = 25
-		end
-]]

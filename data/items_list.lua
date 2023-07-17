@@ -723,6 +723,18 @@ return {
         },
     },
 
+
+
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
     -- ALCOHOL: Bottles
     ['bb_bourgeoix'] = { -- Good ol imported beer from mexico
         label = 'Bottle of Bourgeoix Cognac',
@@ -844,6 +856,18 @@ return {
         },
     },
 
+
+
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
     -- ALCOHOL: Glasses
     ['bg_bourgeiox'] = { -- Good ol imported beer from mexico
         label = 'Glass of Bourgeoix Cognac',
@@ -1173,6 +1197,15 @@ return {
         }
     },
 
+
+
+
+
+
+
+
+
+
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
@@ -1258,6 +1291,14 @@ return {
     },
 
 
+
+
+
+
+
+
+
+
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
@@ -1338,25 +1379,19 @@ return {
 
 
 
+
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
     -- USABLE: Items
-    ['dingus'] = { -- idea: Player uses item to show badge prop
+    ['dingus'] = { 
         label = 'Dingus',
         weight = 6969,
         consume = 0,
         description = "Oh man, what a dingus, just Look at em",
-        client = {
-            anim = { dict = 'paper_1_rcm_alt1-8', clip = 'player_one_dual-8', flag = 49 },
-            prop = { model = 'dingus', -- need badge props repo
-            pos = vec3(0.13, 0.023, -0.04), rot = vec3(-90.0, -180.0, 300.0), bone = 28422 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 5000,
-        }
     },
 
-    ['phone'] = { -- If you aren't using NPWD, remove the client section of this item
+    ['phone'] = { 
         label = 'Phone',
         weight = 190,
         stack = false,
@@ -1376,30 +1411,18 @@ return {
         }
     },
 
-    ['phone_burner'] = { -- If you aren't using NPWD, remove the client section of this item
-        label = 'Burner Phone',
-        weight = 190,
-        stack = false,
-        consume = 0.17
-        
-    },
-
-    ['clothing_bag'] = { -- If you aren't using NPWD, remove the client section of this item
+    ['clothing_bag'] = { 
         label = 'Clothing Bag',
         weight = 3250,
         description = "For changing your outfit on the fly",
         stack = false,
         consume = 1,
         client = {
-            --anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
-            --prop = { model = 'prop_rolled_sock_02', 
-            --pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
             disable = { move = true, car = true, combat = true },
-            --usetime = 2500,
         }
     },
 
-    ['wallet'] = { -- Use to hold licenses
+    ['wallet'] = { 
         label = 'Wallet',
         weight = 115,
         description = "If you lose this, you're gonna be sorry",
@@ -1412,7 +1435,7 @@ return {
         }
     },
 
-    ['bandage'] = { -- Use to partially heal self
+    ['bandage'] = { 
         label = 'Bandage',
         weight = 115,
         description = "Yes, this definetly will heal that gunshot wound",
@@ -1425,47 +1448,31 @@ return {
         }
     },
 
-    ['cigarette'] = { -- social item that causes slight damage to health
-        label = 'Cigarettes',
-        weight = 115,
-        description = "These probably aren't good for you, but fuck it",
-        client = {
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig002', 
-            pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
-            disable = { move = false, car = false, combat = true },
-            usetime = 16000,
-        }
-    },
-
-    -- TESTING Cigarettes script
-    ['redwoods'] = {
-        label = 'Redwoods',
-        weight = 0,
+    ['cig_69brand'] = { 
+        label = 'Pack of 69Brand Smokes',
+        weight = 250,
         stack = false,
-        close = true,
-        description = 'Pack of Original Red Wood Killer Cigarettes',
-        consume = 0,
-        client = {
-            status = { stress = -100000 },
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig002', 
-            pos = { x = 0.00, y = 0.0, z = -0.00}, 
-            rot = { x = 0.0, y = 0.0, z = 0.0}, 
-            bone = 28422 },
-            usetime = 15000,
-        },
-        buttons = {
-            {
-                label = 'Remove Cigarette',
-                action = function(slot)
-                    TriggerServerEvent('gr8_stuff:item:removeCig', slot, {indent=true})
-                end
-            },
-        }
+        consume = 0.08,
+        description = "Good for your lungs",
     },
 
-    ['cigar'] = { -- social item that causes slight damage to health
+    ['cig_redwood'] = { 
+        label = 'Pack of Redwood Smokes',
+        weight = 250,
+        stack = false,
+        consume = 0.08,
+        description = "Good for your lungs",
+    },
+
+    ['cig_debonaire'] = { 
+        label = 'Pack of Debonaire Smokes',
+        weight = 250,
+        stack = false,
+        consume = 0.08,
+        description = "Good for your lungs",
+    },
+
+    ['cigar'] = { 
         label = 'Cigar',
         weight = 115,
         description = "These REALLY aren't good for you, but fuck it",
@@ -1479,7 +1486,7 @@ return {
     },
 
     -- If you are below the mpchristmas3 update, change the prop to 'ba_prop_battle_vape_01'
-    ['vape'] = { -- social item that causes slight damage to health
+    ['vape'] = {
         label = 'Vape',
         weight = 115,
         description = "Vape-nash bruh, tastes like dissapointment",
@@ -1495,7 +1502,7 @@ return {
         }
     },
 
-    ['bodyarmor_1'] = { --  Use to set body armor to 30%
+    ['bodyarmor_1'] = { 
         label = 'Light Ballistic Vest',
         weight = 3000,
         stack = false,
@@ -1506,9 +1513,9 @@ return {
         }
     },
 
-    ['bodyarmor_2'] = { --  Use to set body armor to 60%
+    ['bodyarmor_2'] = { 
         label = 'Medium Ballistic Vest',
-        weight = 4500,
+        weight = 4000,
         stack = false,
         description = "Bullets hurt a lot less with this",
         client = {
@@ -1517,7 +1524,7 @@ return {
         }
     },
 
-    ['bodyarmor_3'] = { --  Use to set body armor to 100%
+    ['bodyarmor_3'] = { 
         label = 'Heavy Ballistic Vest',
         weight = 4500,
         stack = false,
@@ -1528,9 +1535,9 @@ return {
         }
     },
 
-    ['parachute'] = { -- Use to equip parachute tool
+    ['parachute'] = { 
         label = 'Parachute',
-        weight = 8000,
+        weight = 3000,
         stack = false,
         description = "For your sake, I hope it opens at the last second",
         client = {
@@ -1539,23 +1546,25 @@ return {
         }
     },
 
-    ['lockpick'] = { -- Use for doors and cars
+    ['lockpick'] = { 
         label = 'Lockpicks',
         weight = 115,
         description = "Modern problems require sneaky solutions",
     },
 
-    ['money'] = { -- Player currency
+    ['money'] = { 
         label = 'Money',
-        weight = 2,
+        weight = 0.1,
         description = "The root of all evil and payer of rent",
     },
 
-    ['black_money'] = { -- Player currency
+    ['black_money'] = { 
         label = 'Dirty Money',
-        weight = 2,
+        weight = 0.1,
         description = "If you don't wash this, you're gonna be stinky",
     },
+
+
 
 
 
@@ -1568,11 +1577,77 @@ return {
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
-    -- DRUGS: Weed
+    -- USABLE: Tools
+    ['bomb_exps'] = { -- social item that causes slight damage to health
+    label = 'Improvised Explosive Device',
+    weight = 8500,
+    stack = false,
+    close = true,
+    -- degrade = 30, -- option for degrading item until removal
+    allowArmed = false,
+    description = 'Set the timer and get the fuck out of there',
+    consume = 1,
+    },
+
+    ['bomb_gass'] = { -- social item that causes slight damage to health
+    label = 'Explosive Gas Device',
+    weight = 8500,
+    stack = false,
+    close = true,
+    -- degrade = 30, -- option for degrading item until removal
+    allowArmed = false,
+    description = 'Set the timer and get the fuck out of there',
+    consume = 1,
+    },
+
+    ['bomb_fire'] = { -- social item that causes slight damage to health
+    label = 'Improvised Fire Bomb',
+    weight = 8500,
+    stack = false,
+    close = true,
+    -- degrade = 30, -- option for degrading item until removal
+    allowArmed = false,
+    description = 'Set the timer and get the fuck out of there',
+    consume = 1,
+    },
+
+    ['kit_vrepair'] = { 
+        label = 'Car Repair Kit',
+        weight = 2500,
+        consume = 1,
+        description = "A trusty kit to fix even the dankest of dents",
+    },
+
+    ['kit_vclean'] = { 
+        label = 'Car Cleaning Kit',
+        weight = 2500,
+        consume = 1,
+        description = "A trusty kit to fix even the dankest of dents",
+    },
+
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- DRUGS: drugs
+--[[
+    ['drugkit_chem'] = {  IN WORK
+        label = 'Chemical Kit',
+        weight = 3000,
+        consume = 1,
+        description = "A kit for an empty, portable table",
+    },
+]]
     ['weed_sativa'] = { -- idea: use for player to hype up
         label = '3oz Amnesia Haze',
         consume = 0.267,
-        weight = 15,
+        weight = 85,
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
@@ -1586,7 +1661,7 @@ return {
     ['weed_indica'] = { -- idea: use for player to relax
         label = '3oz Afghan Kush',
         consume = 0.267,
-        weight = 15,
+        weight = 85,
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
@@ -1600,7 +1675,7 @@ return {
     ['weed_hybrid'] = { -- idea: higher end weed
         label = '3oz White Widow',
         consume = 0.267,
-        weight = 15,
+        weight = 85,
         description = "Oh man, what a dingus, just Look at em",
         client = {
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
@@ -1855,7 +1930,7 @@ return {
             usetime = 7500,
         },
     },
-    
+
 
 
 
@@ -1896,7 +1971,7 @@ return {
         
     },
 
-    
+
 
 
 
@@ -1907,68 +1982,59 @@ return {
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
-    -- TICKETS: fleeca heist update
+    -- TOOLS: fleeca heist update
     ['bag_blackmoney'] = { 
-        label = 'MBA Ticket: Luxury',
-        weight = 500,
+        label = 'Marked bills',
+        weight = 5000,
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "VIP lounge with a kitchen and bar",
+        description = "They could probably use a wash or two",
     },
 
     ['drill_thermal'] = { 
-        label = 'MBA Ticket: Delux',
-        weight = 500,
+        label = 'Thermal Drill',
+        weight = 20000,
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "Sit in the upper area for a better view",
+        description = "That there is a big boi",
     },
 
     ['hack_tablet'] = { 
-        label = 'MBA Ticket: Standard',
-        weight = 500,
+        label = 'Hacking Tablet',
+        weight = 1200,
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "Standard seating close to the arena", 
+        description = "The power of the web in the palm of my hands", 
     },
 
     ['scard_fleeca'] = { 
-        label = 'MBA Ticket: Luxury',
-        weight = 500,
+        label = 'Fleeca Security Card',
+        weight = 350,
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "VIP lounge with a kitchen and bar",
+        description = "Held by Fleeca Bank Managers",
     },
 
-    ['cig_69brand'] = { 
-        label = 'MBA Ticket: Delux',
-        weight = 500,
+
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- INSTRUMENTS: rock club update (IN PROGRESS)
+    ['guitar_elecreic'] = { 
+        label = 'Electric Guitar',
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "Sit in the upper area for a better view",
+        description = 'A classic guitar for a classic man',
+        weight = 3629,
     },
 
-    ['cig_redwood'] = { 
-        label = 'MBA Ticket: Standard',
-        weight = 500,
+    ['guitar_acoustic'] = { 
+        label = 'Acoustic Guitar',
         stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "Standard seating close to the arena", 
-    },
-
-    ['cig_debonaire'] = { 
-        label = 'MBA Ticket: Standard',
-        weight = 500,
-        stack = false,
-        degrade = 2,
-        consume = 1,
-        description = "Standard seating close to the arena", 
+        description = 'Why do I hear Willie Nelson in the distance',
+        weight = 3229,
     },
 
 }
