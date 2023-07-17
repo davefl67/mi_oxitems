@@ -16,6 +16,9 @@ I put this together for my own server that I'm working on, but I thought I would
   * Fleeca Heist
   * Rock Club (current wip)  
 
+## Dependency
+  * [Mi_Utils](https://github.com/MesaIndigo/mi_utils/tree/main) - needed for new items exports
+
 ## Instructions
 - copy the contents of *items_list.lua* and insert it into the *data/items.lua* file
 - copy the contents of *shops_list.lua* and insert it into the *data/shops.lua* file
