@@ -2023,7 +2023,7 @@ return {
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
     -- INSTRUMENTS: rock club update (IN PROGRESS)
-    ['guitar_elecreic'] = { 
+    ['guitar_electric'] = { 
         label = 'Electric Guitar',
         stack = false,
         description = 'A classic guitar for a classic man',

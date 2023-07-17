@@ -19,10 +19,11 @@ return {
 			{ name = 'orangotang', price = 3 },
 			{ name = 'ejunk', price = 5 },
 
-			{ name = 'bandage', price = 5 },
 			{ name = 'wallet', price = 3 },
 			{ name = 'vape', price = 16 },
-			{ name = 'cigarette', price = 3 },
+			{ name = 'cig_69brand', price = 3 },
+			{ name = 'cig_redwood', price = 3 },
+			{ name = 'cig_debonaire', price = 3 },
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
@@ -293,7 +294,6 @@ return {
 	CriminalDealers = {
 		name = 'Dealer',
 		inventory = {
-			{ name = 'cigarette', price = 3 },
 			{ name = 'phone_burner', price = 100 },
 			{ name = 'lockpick', price = 11 },
 			{ name = 'WEAPON_SNSPISTOL', price = 350, metadata = { registered = false }},
@@ -428,15 +428,15 @@ return {
 	LDOrganics = {
 		name = 'LD Organics',
 		inventory = {
-			{ name = 'cigarette', price = 3 },
-			{ name = 'cigar', price = 4 },
 			{ name = 'weed_sativa', price = 5 },
 			{ name = 'weed_indica', price = 5 },
 			{ name = 'weed_hybrid', price = 6 },
-
-			{ name = 'water', price = 5 },
 			{ name = 'ejunk', price = 5 },
 			{ name = 'ecola', price = 6 },
+
+			{ name = 'cig_69brand', price = 3 },
+			{ name = 'cig_redwood', price = 3 },
+			{ name = 'cig_debonaire', price = 3 },
 			
 
 		}, locations = {
