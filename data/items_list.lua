@@ -51,7 +51,7 @@ return {
     },
 
     ['burger_chsbcn'] = { -- A test hamburger that you can eat
-        label = 'Cheese Burger',
+        label = 'Bacon Cheese Burger',
         weight = 350,
         stack = true,
         close = true,
@@ -247,7 +247,7 @@ return {
         close = true,
         description = "Candy make your tongue go brrrr",
         client = {
-            status = { hunger = 650000 },
+            status = { hunger = 100000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_candy_pqs', 
             pos = vec3(0.0, 0.02, 0.05), rot = vec3(90.0, 0.0, -45.0) },
@@ -876,7 +876,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -893,7 +893,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -910,7 +910,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -926,7 +926,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -942,7 +942,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_champ', 
             pos = vec3(0.16, -0.19, -0.06), 
@@ -959,7 +959,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_tequila', 
             pos = vec3(0.16, -0.12, -0.06), 
@@ -976,7 +976,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_tequsunrise', 
             pos = vec3(0.16, -0.1, -0.05), 
@@ -993,7 +993,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -1010,7 +1010,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1026,7 +1026,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -1043,7 +1043,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1059,7 +1059,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -1076,7 +1076,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_drink_whisky', 
             pos = vec3(0.16, -0.02, -0.06), 
@@ -1093,7 +1093,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1109,7 +1109,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 10000 },
+            status = { drunk = 70000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1426,13 +1426,6 @@ return {
         label = 'Wallet',
         weight = 115,
         description = "If you lose this, you're gonna be sorry",
-        client = {
-            anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
-            prop = { model = 'prop_rolled_sock_02', 
-            pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
-            disable = { move = true, car = true, combat = true },
-            usetime = 2500,
-        }
     },
 
     ['bandage'] = { 
@@ -1476,13 +1469,6 @@ return {
         label = 'Cigar',
         weight = 115,
         description = "These REALLY aren't good for you, but fuck it",
-        client = {
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig001', 
-            pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 180.0, 0.0), bone = 28422 },
-            disable = { move = false, car = false, combat = true },
-            usetime = 15000,
-        }
     },
 
     -- If you are below the mpchristmas3 update, change the prop to 'ba_prop_battle_vape_01'
@@ -1492,47 +1478,27 @@ return {
         description = "Vape-nash bruh, tastes like dissapointment",
         consume = 0,
         degrade = 60,
-        client = {
-            anim = { dict = 'amb@world_human_smoking@male@male_b@base', clip = 'base', flag = 49 },
-            prop = { model = 'xm3_prop_xm3_vape_01a',
-            pos = vec3(-0.02, -0.02, 0.02), rot = vec3(70.0, 110.0, 10.0), bone = 28422 },
-
-            disable = { move = false, car = false, combat = false },
-            usetime = 7000,
-        }
     },
 
-    ['bodyarmor_1'] = { 
+    ['armor_l1'] = { 
         label = 'Light Ballistic Vest',
         weight = 3000,
         stack = false,
         description = "Bullts hurt a bit less with this",
-        client = {
-            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
-            usetime = 6500
-        }
     },
 
-    ['bodyarmor_2'] = { 
+    ['armor_l2'] = { 
         label = 'Medium Ballistic Vest',
         weight = 4000,
         stack = false,
         description = "Bullets hurt a lot less with this",
-        client = {
-            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
-            usetime = 6500
-        }
     },
 
-    ['bodyarmor_3'] = { 
+    ['armor_l3'] = { 
         label = 'Heavy Ballistic Vest',
         weight = 4500,
         stack = false,
         description = "Keep the extra bullets for personal vest flair",
-        client = {
-            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
-            usetime = 6500
-        }
     },
 
     ['parachute'] = { 
@@ -1579,50 +1545,38 @@ return {
     ---------------------------------------------------------------------------------------------------- 
     -- USABLE: Tools
     ['bomb_exps'] = { -- social item that causes slight damage to health
-    label = 'Improvised Explosive Device',
-    weight = 8500,
-    stack = false,
-    close = true,
-    -- degrade = 30, -- option for degrading item until removal
-    allowArmed = false,
-    description = 'Set the timer and get the fuck out of there',
-    consume = 1,
+        label = 'I.E.D.',
+        weight = 8500,
+        stack = false,
+        close = true,
     },
 
     ['bomb_gass'] = { -- social item that causes slight damage to health
-    label = 'Explosive Gas Device',
-    weight = 8500,
-    stack = false,
-    close = true,
-    -- degrade = 30, -- option for degrading item until removal
-    allowArmed = false,
-    description = 'Set the timer and get the fuck out of there',
-    consume = 1,
+        label = 'I.G.D.',
+        weight = 8500,
+        stack = false,
+        close = true,
     },
 
-    ['bomb_fire'] = { -- social item that causes slight damage to health
-    label = 'Improvised Fire Bomb',
-    weight = 8500,
-    stack = false,
-    close = true,
-    -- degrade = 30, -- option for degrading item until removal
-    allowArmed = false,
-    description = 'Set the timer and get the fuck out of there',
-    consume = 1,
-    },
-
-    ['kit_vrepair'] = { 
+    ['vehkit_repair'] = { 
         label = 'Car Repair Kit',
         weight = 2500,
         consume = 1,
         description = "A trusty kit to fix even the dankest of dents",
     },
 
-    ['kit_vclean'] = { 
+    ['vehkit_clean'] = { 
         label = 'Car Cleaning Kit',
         weight = 2500,
         consume = 1,
         description = "A trusty kit to fix even the dankest of dents",
+    },
+
+    ['divegear'] = { 
+        label = 'Diving Gear',
+        weight = 1500,
+        consume = 0,
+        description = "I can hold my breath longer than you can",
     },
 
 
@@ -1636,58 +1590,61 @@ return {
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
     -- DRUGS: drugs
---[[
-    ['drugkit_chem'] = {  IN WORK
-        label = 'Chemical Kit',
-        weight = 3000,
-        consume = 1,
-        description = "A kit for an empty, portable table",
-    },
-]]
-    ['weed_sativa'] = { -- idea: use for player to hype up
+    ['weed_sativa'] = {
         label = '3oz Amnesia Haze',
         consume = 0.267,
         weight = 85,
-        description = "Oh man, what a dingus, just Look at em",
-        client = {
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig003', 
-            pos = vec3(-0.01, 0.0, 0.0), rot = vec3(0.0, 180.0, 0.0), bone = 28422 },
-            disable = { move = false, car = false, combat = true },
-            usetime = 16000,
-        }
+        description = "I'm looking for a pick me up",
     },
 
-    ['weed_indica'] = { -- idea: use for player to relax
+    ['weed_indica'] = {
         label = '3oz Afghan Kush',
         consume = 0.267,
         weight = 85,
-        description = "Oh man, what a dingus, just Look at em",
-        client = {
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig003', 
-            pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
-            disable = { move = false, car = false, combat = true },
-            usetime = 16000,
-        }
+        description = "Wake me up in a hundred years",
     },
 
-    ['weed_hybrid'] = { -- idea: higher end weed
+    ['weed_hybrid'] = {
         label = '3oz White Widow',
         consume = 0.267,
         weight = 85,
-        description = "Oh man, what a dingus, just Look at em",
-        client = {
-            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c', flag = 49 },
-            prop = { model = 'bzzz_cigarpack_cig003', 
-            pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 0.0), bone = 28422 },
-            disable = { move = false, car = false, combat = true },
-            usetime = 16000,
-        }
+        description = "I don't even know, but this shit fucks",
     },
 
+    ['crack_cocaine'] = {
+        label = 'Cocaine',
+        consume = 0.267,
+        weight = 85,
+        description = "Cocaine's a hell of a drug",
+    },
 
+    ['crack_rocks'] = {
+        label = 'Crack',
+        consume = 0.267,
+        weight = 85,
+        description = "It ain't as blue as we like, but it works",
+    },
 
+    ['pill_ecstasy'] = {
+        label = 'Ecstacy',
+        consume = 0.267,
+        weight = 85,
+        description = "Am I the only one who see the hat man?",
+    },
+
+    ['pill_molly'] = {
+        label = 'Molly',
+        consume = 0.267,
+        weight = 85,
+        description = "If I ever did drugs, molly wouldn't be on the list",
+    },
+
+    ['bottle_jenkem'] = {
+        label = 'Jenkem Bottle',
+        consume = 1,
+        weight = 85,
+        description = "This one is for you, Berry",
+    },
 
 
 
@@ -1769,38 +1726,6 @@ return {
     -- MRE: Meal Ready to Eat
     ['mre_1'] = { 
         label = 'MRE-001',
-        weight = 3500,
-        stack = false,
-        close = false,
-        description = "Contains: Meal, Side, Bread, Dessert",
-    },
-
-    ['mre_2'] = { 
-        label = 'MRE-002',
-        weight = 3500,
-        stack = false,
-        close = false,
-        description = "Contains: Meal, Side, Bread, Dessert",
-    },
-
-    ['mre_3'] = { 
-        label = 'MRE-003',
-        weight = 3500,
-        stack = false,
-        close = false,
-        description = "Contains: Meal, Side, Bread, Dessert",
-    },
-
-    ['mre_4'] = { 
-        label = 'MRE-004',
-        weight = 3500,
-        stack = false,
-        close = false,
-        description = "Contains: Meal, Side, Bread, Dessert",
-    },
-
-    ['mre_5'] = { 
-        label = 'MRE-005',
         weight = 3500,
         stack = false,
         close = false,
