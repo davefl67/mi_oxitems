@@ -27,7 +27,7 @@ return {
         close = true,
         description = "A test hamburger that you can eat",
         client = {
-            status = { hunger = 230000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_burger_01', 
             pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -42,7 +42,7 @@ return {
         close = true,
         description = "A test hamburger that you can eat, with cheese",
         client = {
-            status = { hunger = 230000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_burger_01', 
             pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -57,7 +57,7 @@ return {
         close = true,
         description = "A test hamburger that you can eat, with cheese & bacon",
         client = {
-            status = { hunger = 230000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_burger_01', 
             pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -72,7 +72,7 @@ return {
         close = true,
         description = "Not made with real dogs or meat",
         client = {
-            status = { hunger = 230000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_cs_hotdog_01', 
             pos = vec3(0.06, -0.01, -0.03), rot = vec3(60.0, -90.0, 0.0) },
@@ -87,7 +87,7 @@ return {
         close = true,
         description = "นี่คือบะหมี่",
         client = {
-            status = { hunger = 160000 },
+            status = { hunger = 230000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'v_ret_fh_noodle', 
             pos = vec3(-0.03, 0.01, 0.05), 
@@ -103,7 +103,7 @@ return {
         close = true,
         description = "Rib flavored chips, made with real wood chips",
         client = {
-            status = { hunger = 120000 },
+            status = { hunger = 180000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_food_chips', 
             pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
@@ -125,7 +125,7 @@ return {
         close = true,
         description = "Who put cheese on my pepperoni",
         client = {
-            status = { hunger = 200000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'knjgh_pizzaslice5', 
             pos = vec3(0.0500, -0.0300, -0.0700), 
@@ -142,7 +142,7 @@ return {
         close = true,
         description = "Is it enough cheese? No",
         client = {
-            status = { hunger = 200000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'knjgh_pizzaslice4', 
             pos = vec3(0.0500, -0.0300, -0.0700), 
@@ -159,7 +159,7 @@ return {
         close = true,
         description = "Fungi on my pizza? Who thought of this?",
         client = {
-            status = { hunger = 200000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'knjgh_pizzaslice3', 
             pos = vec3(0.0500, -0.0300, -0.0700), 
@@ -176,7 +176,7 @@ return {
         close = true,
         description = "I know, I thought it was alcohol pizza too",
         client = {
-            status = { hunger = 200000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'knjgh_pizzaslice2', 
             pos = vec3(0.0500, -0.0300, -0.0700), 
@@ -193,7 +193,7 @@ return {
         close = true,
         description = "When one meat isn't enough and 3 is weird",
         client = {
-            status = { hunger = 200000 },
+            status = { hunger = 330000 },
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'knjgh_pizzaslice1', 
             pos = vec3(0.0500, -0.0300, -0.0700), 
@@ -497,7 +497,7 @@ return {
         close = true,
         description = "If you think you need more, you do",
         client = {
-            status = { thirst = 300000 },
+            status = { thirst = 330000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'vw_prop_casino_water_bottle_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -512,7 +512,7 @@ return {
         close = true,
         description = "You need strong bones for crimes",
         client = {
-            status = { thirst = 300000 },
+            status = { thirst = 330000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'v_res_tt_milk', 
             bone = 18905,
@@ -533,7 +533,7 @@ return {
         close = true,
         description = "As black as the color wheel lets it be",
         client = {
-            status = { thirst = 220000 },
+            status = { thirst = 280000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_coffee_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -548,7 +548,7 @@ return {
         close = true,
         description = "What even is a mocha",
         client = {
-            status = { thirst = 220000 },
+            status = { thirst = 280000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_coffee_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -563,7 +563,7 @@ return {
         close = true,
         description = "That might wake you up a smidge",
         client = {
-            status = { thirst = 220000 },
+            status = { thirst = 280000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_coffee_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -578,7 +578,7 @@ return {
         close = true,
         description = "American coffee, with an o",
         client = {
-            status = { thirst = 220000 },
+            status = { thirst = 280000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_coffee_01a', 
             pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -597,7 +597,7 @@ return {
         close = true,
         description = "Hey, there is soda in my cocaine",
         client = {
-            status = { thirst = 160000 },
+            status = { thirst = 210000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_ecola_can', 
             pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
@@ -612,7 +612,7 @@ return {
         close = true,
         description = "It tastes like water punched you in the throat",
         client = {
-            status = { thirst = 160000 },
+            status = { thirst = 210000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'ng_proc_sodacan_01b', 
             pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -627,7 +627,7 @@ return {
         close = true,
         description = "I didn't even know people wanted this",
         client = {
-            status = { thirst = 160000 },
+            status = { thirst = 210000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_orang_can_01', 
             pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
@@ -642,7 +642,7 @@ return {
         close = true,
         description = "Drinking too much of this wont kill you. I think.",
         client = {
-            status = { thirst = 160000 },
+            status = { thirst = 210000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'sf_prop_sf_can_01a', 
             pos = vec3(0.025, 0.010, 0.05), rot = vec3(5.0, 5.0, -180.5) },
@@ -743,7 +743,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_bottle_cognac', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -758,7 +758,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_bottle_brandy', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -773,7 +773,7 @@ return {
         close = true,
         description = "For those fancy events",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_champ_01b', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -788,7 +788,7 @@ return {
         close = true,
         description = "A pirates drink for me",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_rum_bottle', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -803,7 +803,7 @@ return {
         close = true,
         description = "For extra kick, add snake venom",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_tequila_bottle', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -818,7 +818,7 @@ return {
         close = true,
         description = "Chilled like the mountains of Siberia",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_vodka_bottle', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -833,7 +833,7 @@ return {
         close = true,
         description = "The cowboy's choice for getting plastered",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_cs_whiskey_bottle', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -848,7 +848,7 @@ return {
         close = true,
         description = "For the refined taste buds you so clearly have",
         client = {
-            status = { drunk = 180000 },
+            status = { drunk = 450000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_bottle_richard', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -910,7 +910,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -926,7 +926,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -959,7 +959,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_tequila', 
             pos = vec3(0.16, -0.12, -0.06), 
@@ -976,7 +976,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'amb@world_human_drinking@coffee@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_tequsunrise', 
             pos = vec3(0.16, -0.1, -0.05), 
@@ -1010,7 +1010,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1043,7 +1043,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1093,7 +1093,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1109,7 +1109,7 @@ return {
         close = true,
         description = "Like whiskey, but more ouch",
         client = {
-            status = { drunk = 70000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'p_cs_shot_glass_2_s', 
             pos = vec3(0.02, -0.01, 0.08), 
@@ -1305,7 +1305,7 @@ return {
     -- USABLES: Ammo cases
     ['box_ammo_rifle1'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 5.56x45 (x120)',
-        weight = 5,
+        weight = 5000,
         --consume = 0,
         description = "A case of stuff to make problems go away",
         client = {
@@ -1322,7 +1322,7 @@ return {
 
     ['box_ammo_rifle2'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 7.62x39 (x120)',
-        weight = 5,
+        weight = 5000,
         --consume = 0,
         description = "A case of stuff to make problems go away",
         client = {
@@ -1339,7 +1339,7 @@ return {
 
     ['box_ammo_shotgun'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 12 Gauge (x60)',
-        weight = 5,
+        weight = 5000,
         --consume = 0,
         description = "A case of stuff to make problems go away",
         client = {
@@ -1356,7 +1356,7 @@ return {
 
     ['box_ammo_sniper'] = { -- idea: Player uses item to show badge prop
         label = 'Ammo Case: 7.62x51 (x30)',
-        weight = 5,
+        weight = 5000,
         --consume = 0,
         description = "A case of stuff to make problems go away",
         client = {
