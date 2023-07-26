@@ -1520,14 +1520,14 @@ return {
 
     ['money'] = { 
         label = 'Money',
-        weight = 0.1,
+        weight = 0.05,
         description = "The root of all evil and payer of rent",
     },
 
     ['black_money'] = { 
-        label = 'Dirty Money',
-        weight = 0.1,
-        description = "If you don't wash this, you're gonna be stinky",
+        label = 'Marked Bills',
+        weight = 0.05,
+        description = "If you don't wash this, you can't use them. And you're stinky",
     },
 
 
@@ -1547,13 +1547,15 @@ return {
     ['bomb_exps'] = { -- social item that causes slight damage to health
         label = 'I.E.D.',
         weight = 8500,
+        description = "An improvised explosive device. In a bag",
         stack = false,
         close = true,
     },
 
-    ['bomb_gass'] = { -- social item that causes slight damage to health
+    ['bomb_gas'] = { -- social item that causes slight damage to health
         label = 'I.G.D.',
         weight = 8500,
+        description = "An improvised explosive gas device. In a bag",
         stack = false,
         close = true,
     },
