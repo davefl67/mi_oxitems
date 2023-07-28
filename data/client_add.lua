@@ -18,19 +18,19 @@ end)
 
 Item('cig_69brand', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smokingcig()
+		exports['mi_utils']:smoke_cigarette()
 	end)
 end)
 
 Item('cig_redwood', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smokingcig()
+		exports['mi_utils']:smoke_cigarette()
 	end)
 end)
 
 Item('cig_debonaire', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smokingcig()
+		exports['mi_utils']:smoke_cigarette()
 	end)
 end)
 
