@@ -1676,12 +1676,7 @@ return {
         description = "If I ever did drugs, molly wouldn't be on the list",
     },
 
-    ['bottle_jenkem'] = {
-        label = 'Jenkem Bottle',
-        consume = 1,
-        weight = 85,
-        description = "This one is for you, Berry",
-    },
+
 
 
 
