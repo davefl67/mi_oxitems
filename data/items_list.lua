@@ -1543,19 +1543,54 @@ return {
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
+    -- LEO: Tools
+    ['armor_leo'] = { 
+        label = 'LEO Ballistic Vest',
+        weight = 4500,
+        stack = false,
+        description = "It ain't blue or fancy, but it's better than standard issue",
+    },
+
+    ['handcuffs'] = { 
+        label = 'Steel Handcuffs',
+        weight = 2000,
+        stack = true,
+        description = "Not even a magician can beat steel",
+    },
+
+    ['riotshield'] = { 
+        label = 'LEO Riot Shield',
+        weight = 4500,
+        stack = false,
+        description = "I think it stops bullets, but I know it looks cool",
+    },
+
+
+
+
+
+
+
+
+
+    ----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
     -- USABLE: Tools
-    ['bomb_exps'] = { -- social item that causes slight damage to health
+    ['bomb_exps'] = {
         label = 'I.E.D.',
         weight = 8500,
         description = "An improvised explosive device. In a bag",
+        consume = 1,
         stack = false,
         close = true,
     },
 
-    ['bomb_gas'] = { -- social item that causes slight damage to health
+    ['bomb_gas'] = {
         label = 'I.G.D.',
         weight = 8500,
         description = "An improvised explosive gas device. In a bag",
+        consume = 1,
         stack = false,
         close = true,
     },
@@ -1617,7 +1652,7 @@ return {
         label = 'Cocaine',
         consume = 0.267,
         weight = 85,
-        description = "Cocaine's a hell of a drug",
+        description = "Did you know cocaine could be a pill too? I bet you didn't",
     },
 
     ['crack_rocks'] = {
