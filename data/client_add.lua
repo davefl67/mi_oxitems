@@ -4,6 +4,18 @@
 					Add these near the bottom of the list, but above the 
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
+Item('riotshield', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:riotshield()
+	end)
+end)
+
+Item('bandage', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:bandage()
+	end)
+end)
+
 Item('vehkit_repair', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:vehkit_repair()
@@ -18,19 +30,19 @@ end)
 
 Item('cig_69brand', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smoke_cigarette()
+		exports['mi_utils']:smokingcig()
 	end)
 end)
 
 Item('cig_redwood', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smoke_cigarette()
+		exports['mi_utils']:smokingcig()
 	end)
 end)
 
 Item('cig_debonaire', function(data, slot)
 	ox_inventory:useItem(data, function(data)
-		exports['mi_utils']:smoke_cigarette()
+		exports['mi_utils']:smokingcig()
 	end)
 end)
 
