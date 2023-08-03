@@ -1417,9 +1417,6 @@ return {
         description = "For changing your outfit on the fly",
         stack = false,
         consume = 1,
-        client = {
-            disable = { move = true, car = true, combat = true },
-        }
     },
 
     ['wallet'] = { 
@@ -1428,17 +1425,18 @@ return {
         description = "If you lose this, you're gonna be sorry",
     },
 
-    ['bandage'] = { 
+    ['bandage'] = {
         label = 'Bandage',
         weight = 115,
+        consume = 1,
         description = "Yes, this definetly will heal that gunshot wound",
-        client = {
-            anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
-            prop = { model = 'prop_rolled_sock_02', 
-            pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
-            disable = { move = true, car = true, combat = true },
-            usetime = 2500,
-        }
+    },
+
+    ['medkit'] = { 
+        label = 'Medical Kit',
+        weight = 1500,
+        consume = 1,
+        description = "For them big ouchies and shit",
     },
 
     ['cig_69brand'] = { 
