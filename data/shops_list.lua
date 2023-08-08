@@ -5,7 +5,7 @@ return {
 	General = {
 		name = 'Conv. Store',
 		blip = {
-			id = 59, colour = 69, scale = 0.8
+			id = 521, colour = 69, scale = 0.6
 		}, inventory = {
 			{ name = 'sandwich', price = 5 },
 			{ name = 'phatc_bch', price = 3 },
@@ -139,7 +139,7 @@ return {
 	Liquor = {
 		name = 'Liquor Store',
 		blip = {
-			id = 93, colour = 27, scale = 0.8
+			id = 522, colour = 27, scale = 0.7
 		}, inventory = {
 			{ name = 'water', price = 10 },
 			{ name = 'rancho_beer', price = 4 },
@@ -205,7 +205,7 @@ return {
 	Ammunation = {
 		name = 'Ammunation',
 		blip = {
-			id = 110, colour = 69, scale = 0.8
+			id = 644, colour = 81, scale = 0.7
 		}, inventory = {
 			{ name = 'WEAPON_CERAMICPISTOL', price = 1000, 
 			metadata = { registered = true }, license = 'weapon' },
@@ -294,11 +294,11 @@ return {
 	CriminalDealers = {
 		name = 'Dealer',
 		inventory = {
-			{ name = 'phone_burner', price = 100 },
+			{ name = 'pill_molly', price = 100 },
 			{ name = 'lockpick', price = 11 },
 			{ name = 'WEAPON_SNSPISTOL', price = 350, metadata = { registered = false }},
 			{ name = 'ammo-45', price = 9 },
-			{ name = 'bodyarmor_1', price = 125 },
+			{ name = 'armor_l1', price = 125 },
 
 		}, locations = {
 			vec3(-1216.225, -1473.32, 4.334),
@@ -325,7 +325,7 @@ return {
 	BahamaMamas = {
 		name = 'Bahama Mamas',
 		blip = {
-			id = 766, colour = 8, scale = 0.8
+			id = 597, colour = 8, scale = 0.7
 		}, inventory = {
 			{ name = 'rancho_beer', price = 5 },
 			{ name = 'dusche_beer', price = 7 },
@@ -349,7 +349,7 @@ return {
 	VanillaUnicorn = {
 		name = 'Vanilla Unicorn',
 		blip = {
-			id = 121, colour = 8, scale = 0.8
+			id = 567, colour = 8, scale = 0.7
 		}, inventory = {
 			{ name = 'rancho_beer', price = 5 },
 			{ name = 'dusche_beer', price = 7 },
@@ -375,9 +375,7 @@ return {
 	-- minor vendors
 	DigitalDen = {
 		name = 'Digital Den',
-		blip = {
-			id = 606, colour = 2, scale = 0.8
-		}, inventory = {
+		inventory = {
 			{ name = 'phone', price = 65 },
 			{ name = 'wallet', price = 7 },
 			{ name = 'vape', price = 25 },
