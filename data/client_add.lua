@@ -4,6 +4,13 @@
 					Add these near the bottom of the list, but above the 
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
+
+Item('mre_1', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:mrepack()
+	end)
+end)
+
 Item('riotshield', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:riotshield()
