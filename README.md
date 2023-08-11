@@ -5,7 +5,8 @@
 I put this together for my own server that I'm working on, but I thought I would share the items & effects. I'll add to it as I edit and add more items and I will notate which files go where in the client / server code so that it should be easy to put together. I also added the latest weapons from the recent updates.
 
 ##### Image Quality: *I use adobe illustrator to cut out & size the images, without losing too much of the quality*
-![item_images](https://user-images.githubusercontent.com/116332087/220464487-23600a1c-9702-4696-bee7-4ac62df7eb9f.png)
+
+![inventory](https://github.com/MIAgimir/Ox_Inventory-ItemsTemplate/assets/116332087/3b8e5faf-b366-496f-b1bb-264094617e31)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S5IBXL6)
 
