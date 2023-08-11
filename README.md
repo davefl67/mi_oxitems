@@ -18,6 +18,7 @@ I put this together for my own server that I'm working on, but I thought I would
 
 ## Dependency
   * [Mi_Utils](https://github.com/MesaIndigo/mi_utils/tree/main) - needed for new items exports
+  * [M.I. Stream](https://github.com/MIAgimir/mi_stream/releases) - neede for prop streams
 
 ## Instructions
 - copy the contents of *items_list.lua* and insert it into the *data/items.lua* file
