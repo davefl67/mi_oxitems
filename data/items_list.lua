@@ -670,7 +670,7 @@ return {
         close = true,
         description = "Good ol imported beer from mexico",
         client = {
-            status = { drunk = 90000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_beer_bottle', 
             pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -685,7 +685,7 @@ return {
         close = true,
         description = "Good ol imported beer from germany",
         client = {
-            status = { drunk = 90000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_beerdusche', 
             pos = vec3(0.01, -0.01, -0.12), rot = vec3(5.0, 5.0, -180.5) },
@@ -693,16 +693,16 @@ return {
         },
     },
 
-    ['stronzo_beer'] = { -- Good ol imported beer from italy
-        label = 'Stronzo Beer',
+    ['blarny_beer'] = { -- Good ol imported beer from italy
+        label = 'Blarny\'s Stout',
         weight = 290,
         stack = true,
         close = true,
-        description = "Good ol imported beer from italy",
+        description = "Good ol imported stout from ireland",
         client = {
-            status = { drunk = 90000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-            prop = { model = 'prop_beer_stz', 
+            prop = { model = 'prop_beer_blr', 
             pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
             usetime = 7500,
         },
@@ -715,7 +715,7 @@ return {
         close = true,
         description = "Good ol homemade beer from the brewery",
         client = {
-            status = { drunk = 90000 },
+            status = { drunk = 120000 },
             anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
             prop = { model = 'prop_beer_patriot', 
             pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
@@ -1131,72 +1131,87 @@ return {
     -- USABLES: Beer crates
     ['box_rancho_beer'] = { -- idea: Player uses item to show badge prop
         label = 'Case of Rancho Beer',
-        weight = 3500,
+        weight = 8500,
         --consume = 0,
         description = "Oh boy I love beer",
-        client = {
-            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
-            clip = 'machinic_loop_mechandplayer', flag = 3 },
-            prop = { model = 'v_ind_cfbox2', -- need badge props repo
-            pos = vec3(-0.05, 0.8, -0.25), 
-            rot = vec3(0.00, 0.00, 0.00), 
-            bone = 56604 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 5000,
-        }
     },
 
     ['box_dusche_beer'] = { -- idea: Player uses item to show badge prop
         label = 'Case of Dusche Beer',
-        weight = 3500,
+        weight = 8500,
         --consume = 0,
         description = "Oh boy I love beer",
-        client = {
-            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
-            clip = 'machinic_loop_mechandplayer', flag = 3 },
-            prop = { model = 'v_ind_cfbox2', -- need badge props repo
-            pos = vec3(-0.05, 0.8, -0.25), 
-            rot = vec3(0.00, 0.00, 0.00), 
-            bone = 56604 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 5000,
-        }
     },
 
-    ['box_stronzo_beer'] = { -- idea: Player uses item to show badge prop
-        label = 'Case of Stronzo Beer',
-        weight = 3500,
+    ['box_blarny_beer'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Blarny\'s Stout',
+        weight = 8500,
         --consume = 0,
         description = "Oh boy I love beer",
-        client = {
-            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
-            clip = 'machinic_loop_mechandplayer', flag = 3 },
-            prop = { model = 'v_ind_cfbox2', -- need badge props repo
-            pos = vec3(-0.05, 0.8, -0.25), 
-            rot = vec3(0.00, 0.00, 0.00), 
-            bone = 56604 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 5000,
-        }
     },
 
     ['box_patriot_beer'] = { -- idea: Player uses item to show badge prop
         label = 'Case of Patriot Beer',
-        weight = 3500,
+        weight = 8500,
         --consume = 0,
         description = "Oh boy I love beer",
-        client = {
-            anim = { dict = 'anim@amb@clubhouse@tutorial@bkr_tut_ig3@', 
-            clip = 'machinic_loop_mechandplayer', flag = 3 },
-            prop = { model = 'v_ind_cfbox2', -- need badge props repo
-            pos = vec3(-0.05, 0.8, -0.25), 
-            rot = vec3(0.00, 0.00, 0.00), 
-            bone = 56604 },
-            disable = { move = false, car = false, combat = false },
-            usetime = 5000,
-        }
     },
 
+    ['box_bourgeoix_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Bourgeoix Cognac',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_cariaque_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Cariaque Bourbon',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_bleuterd_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Bleuter\'d Champagne',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_ragga_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Ragga Rum',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_tequilya_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Tequilya Tequila',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_nogo_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Nogo Vodka',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_mount_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Mount Whiskey',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
+
+    ['box_richards_liquor'] = { -- idea: Player uses item to show badge prop
+        label = 'Case of Richard\'s Whiskey',
+        weight = 8500,
+        --consume = 0,
+        description = "Oh boy I love liquor",
+    },
 
 
 
@@ -1977,19 +1992,14 @@ return {
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
-    -- INSTRUMENTS: rock club update (IN PROGRESS)
-    ['guitar_electric'] = { 
-        label = 'Electric Guitar',
-        stack = false,
-        description = 'A classic guitar for a classic man',
-        weight = 3629,
-    },
-
-    ['guitar_acoustic'] = { 
-        label = 'Acoustic Guitar',
-        stack = false,
-        description = 'Why do I hear Willie Nelson in the distance',
-        weight = 3229,
-    },
+    -- Trading Card
+    ['lstradingcard'] = {
+    label = 'L.S. Lore Card',
+    weight = 10,
+    consume = 0,
+    server = {
+        export = 'mi_utils.lstradingcard',
+        }
+    }
 
 }

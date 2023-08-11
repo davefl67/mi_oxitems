@@ -5,6 +5,36 @@
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
 
+Item('box_bourgeoix_liquor', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_bourgeoix_liquor()
+	end)
+end)
+
+Item('box_rancho_beer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_rancho_beer()
+	end)
+end)
+
+Item('box_dusche_beer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_dusche_beer()
+	end)
+end)
+
+Item('box_blarny_beer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_blarny_beer()
+	end)
+end)
+
+Item('box_patriot_beer', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_patriot_beer()
+	end)
+end)
+
 Item('mre_1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:mrepack()
