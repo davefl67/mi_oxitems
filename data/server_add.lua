@@ -28,39 +28,36 @@ setContainerProperties('giftbox_white', {
 	maxWeight = 3000,
 })
 
+setContainerProperties('lscardbook_black', {
+	slots = 90,
+	maxWeight = 1000,
+	whitelist = { 'lstradingcard' }
+})
+
+setContainerProperties('lscardbook_blue', {
+	slots = 90,
+	maxWeight = 1000,
+	whitelist = { 'lstradingcard' }
+})
+
+setContainerProperties('lscardbook_green', {
+	slots = 90,
+	maxWeight = 1000,
+	whitelist = { 'lstradingcard' }
+})
+
+setContainerProperties('lscardbook_yellow', {
+	slots = 90,
+	maxWeight = 1000,
+	whitelist = { 'lstradingcard' }
+})
+
 
 -- IN THE MODULES/ITEMS/SERVER.LUA
 -- add to end of file above 'return Items'
 ----------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------- 
--- Beer Cases
-Item('box_rancho_beer', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'rancho_beer', 6)
-	end
-end)
-
-Item('box_dusche_beer', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'dusche_beer', 6)
-	end
-end)
-
-Item('box_stronzo_beer', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'stronzo_beer', 6)
-	end
-end)
-
-Item('box_patriot_beer', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'patriot_beer', 6)
-	end
-end)
-
-----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------- 
--- Pizza Boxes
+-- Pizza
 Item('box_pizza_chs', function(event, item, inventory, data, slot)
 	if event == 'usedItem' then
     	Inventory.AddItem(inventory, 'pizza_chs', 8)

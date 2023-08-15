@@ -1992,7 +1992,7 @@ return {
     ----------------------------------------------------------------------------------------------------
 	----------------------------------------------------------------------------------------------------
     ---------------------------------------------------------------------------------------------------- 
-    -- Trading Card
+    -- Trading Cards
     ['lstradingcard'] = {
     label = 'L.S. Lore Card',
     weight = 10,
@@ -2000,6 +2000,29 @@ return {
     server = {
         export = 'mi_utils.lstradingcard',
         }
-    }
+    },
 
+    ['lscardbook_black'] = {
+        label = 'Black Card Binder',
+        weight = 500,
+        consume = 0,
+    },
+    
+    ['lscardbook_blue'] = {
+        label = 'Blue Card Binder',
+        weight = 500,
+        consume = 0,
+    },
+
+    ['lscardbook_green'] = {
+        label = 'Green Card Binder',
+        weight = 500,
+        consume = 0,
+    },
+
+    ['lscardbook_yellow'] = {
+        label = 'Yellow Card Binder',
+        weight = 500,
+        consume = 0,
+    },
 }
