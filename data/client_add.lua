@@ -5,6 +5,86 @@
 					exports for items & itemlist
 -------------------------------------------------------------------------------- ]]--
 
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: trading card
+
+	Item('lstradingcard_pack', function(data, slot)
+		ox_inventory:useItem(data, function(data)
+			exports['mi_utils']:lstradingcard_pack()
+		end)
+	end)
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: ammo cases
+
+Item('box_ammo_22', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_22()
+	end)
+end)
+
+Item('box_ammo_38', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_38()
+	end)
+end)
+
+Item('box_ammo_44', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_44()
+	end)
+end)
+
+Item('box_ammo_45', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_45()
+	end)
+end)
+
+Item('box_ammo_50', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_50()
+	end)
+end)
+
+Item('box_ammo_9', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_9()
+	end)
+end)
+
+Item('box_ammo_556m', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_556m()
+	end)
+end)
+
+Item('box_ammo_762m', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_762m()
+	end)
+end)
+
+Item('box_ammo_12g', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_12g()
+	end)
+end)
+
+Item('box_ammo_76251m', function(data, slot)
+	ox_inventory:useItem(data, function(data)
+		exports['mi_utils']:box_ammo_76251m()
+	end)
+end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: alcohol crates
+
 Item('box_bourgeoix_liquor', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:box_bourgeoix_liquor()
@@ -35,11 +115,21 @@ Item('box_patriot_beer', function(data, slot)
 	end)
 end)
 
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: miliary items
+
 Item('mre_1', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:mrepack()
 	end)
 end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: police items
 
 Item('riotshield', function(data, slot)
 	ox_inventory:useItem(data, function(data)
@@ -47,11 +137,61 @@ Item('riotshield', function(data, slot)
 	end)
 end)
 
+Item('badge_fib', function(data, slot)
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_lspd', function(data, slot)
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_bcso', function(data, slot)
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+Item('badge_lssd', function(data, slot)
+	local pos = GetEntityCoords(GetPlayerPed(-1))
+    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
+	ox_inventory:useItem(data, function(data)
+		if DoesEntityExist(rped) then
+            TaskReactAndFleePed(rped, PlayerPedId())
+        end
+	end)
+end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: medical items
+
 Item('bandage', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:bandage()
 	end)
 end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: vehicle items
 
 Item('vehkit_repair', function(data, slot)
 	ox_inventory:useItem(data, function(data)
@@ -64,6 +204,11 @@ Item('vehkit_clean', function(data, slot)
 		exports['mi_utils']:vehkit_clean()
 	end)
 end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: social items
 
 Item('cig_69brand', function(data, slot)
 	ox_inventory:useItem(data, function(data)
@@ -94,6 +239,11 @@ Item('vape', function(data, slot)
 		exports['mi_utils']:smoke_vape()
 	end)
 end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: drug items
 
 Item('weed_sativa', function(data, slot)
 	ox_inventory:useItem(data, function(data)
@@ -137,6 +287,11 @@ Item('pill_molly', function(data, slot)
 	end)
 end)
 
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: crime items
+
 Item('bomb_exps', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:bomb_exps()
@@ -148,6 +303,11 @@ Item('bomb_gas', function(data, slot)
 		exports['mi_utils']:bomb_gas()
 	end)
 end)
+
+	----------------------------------------------------------------------------------------------------
+	----------------------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------------------- 
+    -- USABLES: tool items
 
 Item('divegear', function(data, slot)
 	ox_inventory:useItem(data, function(data)
@@ -176,47 +336,5 @@ end)
 Item('armor_l3', function(data, slot)
 	ox_inventory:useItem(data, function(data)
 		exports['mi_utils']:armor_l3()
-	end)
-end)
--- POLICE BADGES
-
-
-Item('badge_fib', function(data, slot)
-	local pos = GetEntityCoords(GetPlayerPed(-1))
-    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
-	ox_inventory:useItem(data, function(data)
-		if DoesEntityExist(rped) then
-            TaskReactAndFleePed(rped, PlayerPedId())
-        end
-	end)
-end)
-
-Item('badge_lspd', function(data, slot)
-	local pos = GetEntityCoords(GetPlayerPed(-1))
-    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
-	ox_inventory:useItem(data, function(data)
-		if DoesEntityExist(rped) then
-            TaskReactAndFleePed(rped, PlayerPedId())
-        end
-	end)
-end)
-
-Item('badge_bcso', function(data, slot)
-	local pos = GetEntityCoords(GetPlayerPed(-1))
-    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
-	ox_inventory:useItem(data, function(data)
-		if DoesEntityExist(rped) then
-            TaskReactAndFleePed(rped, PlayerPedId())
-        end
-	end)
-end)
-
-Item('badge_lssd', function(data, slot)
-	local pos = GetEntityCoords(GetPlayerPed(-1))
-    local rped = GetRandomPedAtCoord(pos['x'], pos['y'], pos['z'], 20.05, 20.05, 20.05, 6, _r)
-	ox_inventory:useItem(data, function(data)
-		if DoesEntityExist(rped) then
-            TaskReactAndFleePed(rped, PlayerPedId())
-        end
 	end)
 end)
