@@ -88,29 +88,3 @@ Item('box_pizza_dmt', function(event, item, inventory, data, slot)
 	end
 end)
 
-----------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------- 
--- Ammo
-Item('box_ammo_rifle1', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'ammo-rifle1', 120)
-	end
-end)
-
-Item('box_ammo_rifle2', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'ammo-rifle2', 120)
-	end
-end)
-
-Item('box_ammo_shotgun', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'ammo-shotgun', 60)
-	end
-end)
-
-Item('box_ammo_sniper', function(event, item, inventory, data, slot)
-	if event == 'usedItem' then
-    	Inventory.AddItem(inventory, 'ammo-sniper', 30)
-	end
-end)
