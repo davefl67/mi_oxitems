@@ -8,14 +8,6 @@ I put this together for my own server that I'm working on, but I thought I would
 
 ![inventory](https://github.com/MIAgimir/Ox_Inventory-ItemsTemplate/assets/116332087/3b8e5faf-b366-496f-b1bb-264094617e31)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S5IBXL6)
-
-## Added updates:
-  * MBA events update
-  * Bank Courier
-  * Fleeca Heist
-  * Rock Club (current wip)  
-
 ## Dependency
   * [Mi_Utils](https://github.com/MesaIndigo/mi_utils/tree/main) - needed for new items exports
   * [M.I. Stream](https://github.com/MIAgimir/mi_stream/releases) - neede for prop streams
